@@ -1,0 +1,163 @@
+{
+ "id": "triton",
+ "name": "Tritón",
+ "kind": "moon",
+ "parent": "neptune",
+ "description": "Órbita retrógrada (probable objeto capturado del cinturón de Kuiper); géiseres de nitrógeno y terreno de 'piel de melón'.",
+ "jpl_code": "801",
+ "physical": {
+  "mean_radius": {
+   "value": 1352600.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters"
+  },
+  "mass": {
+   "value": 2.1402925550244972e+22,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+  },
+  "sidereal_rotation_period": {
+   "value": 507772.2816,
+   "unit": "s",
+   "quality": "approximate",
+   "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+  }
+ },
+ "rotation": {
+  "model": "synchronous",
+  "quality": "approximate",
+  "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+ },
+ "orbit": {
+  "model": "satellite",
+  "frame": "laplace",
+  "epoch_jd": 2451545.0,
+  "a_m": 354800000.0,
+  "e": 0.0,
+  "w_deg": 0.0,
+  "M_deg": 63.0,
+  "i_deg": 157.3,
+  "node_deg": 178.1,
+  "period_s": 507772.2816,
+  "apsis_period_s": 0.0,
+  "node_period_s": 10741544330.400002,
+  "quality": "measured",
+  "source": "JPL SSD Planetary Satellite Mean Elements (NEP097, ref. 24)",
+  "laplace_pole_ra": 299.8,
+  "laplace_pole_dec": 43.1
+ },
+ "surface": {
+  "type": "solid",
+  "terrain_profile": "triton",
+  "seed": 8485841,
+  "terrain_note": "Topografía PROCEDURAL inspirada en Tritón; no son datos reales.",
+  "colors_override": {
+   "base": [
+    0.86,
+    0.78,
+    0.76
+   ],
+   "alt": [
+    0.62,
+    0.5,
+    0.48
+   ]
+  }
+ },
+ "render": {
+  "kind": "rocky",
+  "color": [
+   0.86,
+   0.78,
+   0.76
+  ],
+  "color2": [
+   0.62,
+   0.5,
+   0.48
+  ]
+ },
+ "atmosphere": {
+  "present": true,
+  "kind": "rocky",
+  "reference_level": "surface",
+  "surface_pressure": {
+   "value": 1.4,
+   "unit": "Pa",
+   "quality": "measured",
+   "source": "Voyager 2 (1989): ~14 µbar, 38 K"
+  },
+  "surface_temperature": {
+   "value": 38.0,
+   "unit": "K",
+   "quality": "measured",
+   "source": "Voyager 2 (1989): ~14 µbar, 38 K"
+  },
+  "scale_height": {
+   "value": 14000.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "Voyager 2 (1989): ~14 µbar, 38 K"
+  },
+  "mean_molecular_weight": {
+   "value": 28.0,
+   "unit": "g/mol",
+   "quality": "measured",
+   "source": "Voyager 2 (1989): ~14 µbar, 38 K"
+  },
+  "lapse_rate": {
+   "value": 0.0,
+   "unit": "K/m",
+   "quality": "approximate",
+   "source": "Gradiente térmico típico de la troposfera"
+  },
+  "min_temperature": {
+   "value": 30.0,
+   "unit": "K",
+   "quality": "approximate",
+   "source": "Temperatura mínima de la troposfera (tropopausa)"
+  },
+  "composition": "N2 con trazas de CH4 y CO (Voyager 2)",
+  "sky": {
+   "zenith": [
+    0.01,
+    0.01,
+    0.02
+   ],
+   "horizon": [
+    0.1,
+    0.12,
+    0.18
+   ],
+   "sunset": [
+    0.2,
+    0.25,
+    0.35
+   ],
+   "space_limb": [
+    0.5,
+    0.6,
+    0.9
+   ]
+  },
+  "visual_density": 0.02,
+  "surface_light": {
+   "value": 1.0,
+   "unit": "fracción",
+   "quality": "approximate",
+   "source": "Fracción de la luz solar que llega al suelo"
+  },
+  "visibility": {
+   "value": 1000000.0,
+   "unit": "m",
+   "quality": "approximate",
+   "source": "Visibilidad horizontal típica en superficie"
+  },
+  "clouds": [],
+  "winds": {},
+  "note": "Géiseres de nitrógeno de hasta 8 km de altura."
+ },
+ "schema_version": 1
+}

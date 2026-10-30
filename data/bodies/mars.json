@@ -1,0 +1,198 @@
+{
+ "id": "mars",
+ "name": "Marte",
+ "kind": "planet",
+ "parent": "sun",
+ "description": "Desierto helado de óxido de hierro: 6,36 mbar de CO2, ~214 K de media, tormentas de polvo de hasta 30 m/s. Cielo de color caramelo de día y puestas de sol azules por el polvo.",
+ "physical": {
+  "mean_radius": {
+   "value": 3389500.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (mars: volumetric mean radius)"
+  },
+  "mass": {
+   "value": 6.416852703654317e+23,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (mars: GM/G)"
+  },
+  "gm": {
+   "value": 42828000000000.0,
+   "unit": "m3/s2",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (mars)"
+  },
+  "sidereal_rotation_period": {
+   "value": 88642.44,
+   "unit": "s",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (negativo = retrógrado)"
+  },
+  "solar_day": {
+   "value": 88774.92,
+   "unit": "s",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (length of day)"
+  },
+  "axial_tilt": {
+   "value": 25.19,
+   "unit": "deg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (obliquity to orbit)"
+  },
+  "geometric_albedo": {
+   "value": 0.17,
+   "unit": "",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  }
+ },
+ "rotation": {
+  "model": "iau",
+  "pole_ra": 317.681,
+  "pole_dec": 52.887,
+  "pole_ra_rate": -0.106,
+  "pole_dec_rate": -0.061,
+  "w0": 176.63,
+  "wdot": 350.89198226,
+  "quality": "approximate",
+  "source": "IAU WGCCRE 2015 (Archinal et al. 2018); polo contrastado con NASA NSSDCA Planetary Fact Sheet"
+ },
+ "orbit": {
+  "model": "planet",
+  "frame": "ecliptic_j2000",
+  "elements": [
+   1.52371034,
+   0.0933941,
+   1.84969142,
+   -4.55343205,
+   -23.94362959,
+   49.55953891
+  ],
+  "rates_per_century": [
+   1.847e-05,
+   7.882e-05,
+   -0.00813131,
+   19140.30268499,
+   0.44441088,
+   -0.29257343
+  ],
+  "element_order": [
+   "a_au",
+   "e",
+   "i_deg",
+   "L_deg",
+   "varpi_deg",
+   "node_deg"
+  ],
+  "quality": "measured",
+  "source": "JPL SSD Approximate Positions of the Planets, Tabla 1 (Standish & Williams 1992)",
+  "valid": "1800-2050"
+ },
+ "atmosphere": {
+  "present": true,
+  "kind": "rocky",
+  "reference_level": "surface",
+  "surface_pressure": {
+   "value": 636.0,
+   "unit": "Pa",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  },
+  "surface_temperature": {
+   "value": 214.0,
+   "unit": "K",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  },
+  "scale_height": {
+   "value": 11000.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  },
+  "mean_molecular_weight": {
+   "value": 43.49,
+   "unit": "g/mol",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  },
+  "lapse_rate": {
+   "value": 0.0025,
+   "unit": "K/m",
+   "quality": "approximate",
+   "source": "Gradiente térmico típico de la troposfera"
+  },
+  "min_temperature": {
+   "value": 150.0,
+   "unit": "K",
+   "quality": "approximate",
+   "source": "Temperatura mínima de la troposfera (tropopausa)"
+  },
+  "composition": "CO2 95,1 %, N2 2,59 %, Ar 1,94 %, O2 0,16 %, CO 0,06 % (NSSDC)",
+  "sky": {
+   "zenith": [
+    0.55,
+    0.4,
+    0.3
+   ],
+   "horizon": [
+    0.78,
+    0.6,
+    0.44
+   ],
+   "sunset": [
+    0.45,
+    0.62,
+    0.88
+   ],
+   "space_limb": [
+    0.85,
+    0.65,
+    0.5
+   ]
+  },
+  "visual_density": 0.35,
+  "surface_light": {
+   "value": 0.85,
+   "unit": "fracción",
+   "quality": "approximate",
+   "source": "Fracción de la luz solar que llega al suelo"
+  },
+  "visibility": {
+   "value": 40000.0,
+   "unit": "m",
+   "quality": "approximate",
+   "source": "Visibilidad horizontal típica en superficie"
+  },
+  "clouds": [],
+  "winds": {
+   "surface_mps": 7.0,
+   "storm_mps": 30.0,
+   "note": "2-7 m/s verano, 5-10 otoño, 17-30 tormenta (NSSDC, Viking)"
+  },
+  "note": "Puesta de sol azul: el polvo dispersa la luz roja hacia delante (Curiosity, Spirit)."
+ },
+ "surface": {
+  "type": "solid",
+  "terrain_profile": "mars",
+  "seed": 3389500,
+  "terrain_note": "Topografía PROCEDURAL inspirada en Marte (MOLA); no son datos reales."
+ },
+ "render": {
+  "kind": "rocky",
+  "color": [
+   0.74,
+   0.42,
+   0.26
+  ],
+  "color2": [
+   0.55,
+   0.3,
+   0.2
+  ],
+  "polar_caps": true
+ },
+ "schema_version": 1
+}

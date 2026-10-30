@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "explorer",
+  "name": "Explorador clase Kestrel",
+  "description": "Nave de exploración de una cubierta para 8 tripulantes (57 m de eslora). Diseño ficticio.",
+  "mass_kg": 140000,
+  "artificial_gravity_mps2": 9.80665,
+  "artificial_gravity_note": "Gravedad artificial y compensación inercial FICTICIAS (convención de ciencia ficción): dentro de la nave no se sienten sus aceleraciones.",
+  "rotation": {
+    "max_rate_deg_s": [45.0, 38.0, 70.0],
+    "max_accel_deg_s2": [70.0, 60.0, 110.0],
+    "comment": "Orden: cabeceo (pitch), guiñada (yaw), alabeo (roll)."
+  },
+  "translation": {
+    "maneuver_speed_mps": 25.0,
+    "lateral_accel_fraction": 0.5,
+    "vertical_accel_fraction": 0.7,
+    "reverse_speed_fraction": 0.2,
+    "assist_time_constant_s": 0.8,
+    "hover_accel_reserve_mps2": 3.0
+  },
+  "regimes": [
+    {"id": "maneuver", "name": "Maniobra", "max_speed_mps": 60.0, "accel_mps2": 10.0, "fictional": false},
+    {"id": "normal", "name": "Vuelo normal", "max_speed_mps": 2500.0, "accel_mps2": 35.0, "fictional": false},
+    {"id": "cruise", "name": "Crucero", "max_speed_mps": 120000.0, "accel_mps2": 3000.0, "fictional": true},
+    {"id": "high", "name": "Alta velocidad (experimental)", "max_speed_mps": 3.0e7, "accel_mps2": 1.0e6, "fictional": true},
+    {"id": "light", "name": "Lumínico (abstracto, no relativista)", "max_speed_mps": 299792458.0, "accel_mps2": 3.0e7, "fictional": true,
+     "min_distance_radii": 3.0, "spool_s": 3.0}
+  ],
+  "collision": {
+    "hull_box_center": [0.0, 1.5, -1.5],
+    "hull_box_size": [40.0, 5.6, 58.0],
+    "gear_drop_m": 2.0,
+    "landing_max_speed_mps": 3.0,
+    "landing_max_tilt_deg": 18.0,
+    "hard_impact_mps": 8.0
+  }
+}

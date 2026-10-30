@@ -1,0 +1,84 @@
+{
+ "id": "umbriel",
+ "name": "Umbriel",
+ "kind": "moon",
+ "parent": "uranus",
+ "description": "La más oscura de las grandes lunas de Urano.",
+ "jpl_code": "702",
+ "physical": {
+  "mean_radius": {
+   "value": 584700.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters"
+  },
+  "mass": {
+   "value": 1.27504007910942e+21,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+  },
+  "sidereal_rotation_period": {
+   "value": 358056.8928,
+   "unit": "s",
+   "quality": "approximate",
+   "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+  }
+ },
+ "rotation": {
+  "model": "synchronous",
+  "quality": "approximate",
+  "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+ },
+ "orbit": {
+  "model": "satellite",
+  "frame": "equatorial",
+  "epoch_jd": 2451545.0,
+  "a_m": 265986000.0,
+  "e": 0.004,
+  "w_deg": 183.4,
+  "M_deg": 253.0,
+  "i_deg": 0.1,
+  "node_deg": 174.8,
+  "period_s": 358056.8928,
+  "apsis_period_s": 2023662657.6000001,
+  "node_period_s": 4094440812.0,
+  "quality": "measured",
+  "source": "JPL SSD Planetary Satellite Mean Elements (URA182, ref. 45)"
+ },
+ "surface": {
+  "type": "solid",
+  "terrain_profile": "icy_cratered",
+  "seed": 4953434,
+  "terrain_note": "Topografía PROCEDURAL inspirada en Umbriel; no son datos reales.",
+  "colors_override": {
+   "base": [
+    0.35,
+    0.35,
+    0.36
+   ],
+   "alt": [
+    0.7,
+    0.7,
+    0.7
+   ]
+  }
+ },
+ "render": {
+  "kind": "rocky",
+  "color": [
+   0.35,
+   0.35,
+   0.36
+  ],
+  "color2": [
+   0.7,
+   0.7,
+   0.7
+  ]
+ },
+ "atmosphere": {
+  "present": false
+ },
+ "schema_version": 1
+}

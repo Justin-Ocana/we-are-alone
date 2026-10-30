@@ -1,0 +1,193 @@
+{
+ "id": "pluto",
+ "name": "Plutón",
+ "kind": "dwarf_planet",
+ "parent": "sun",
+ "description": "Planeta enano de hielos de N2, CH4 y CO. Atmósfera tenue (~13 µbar) con neblinas azules; llanura helada Sputnik Planitia (forma de corazón) y montañas de hielo de agua.",
+ "physical": {
+  "mean_radius": {
+   "value": 1188000.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (pluto: volumetric mean radius)"
+  },
+  "mass": {
+   "value": 1.3035074839308992e+22,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (pluto: GM/G)"
+  },
+  "gm": {
+   "value": 870000000000.0,
+   "unit": "m3/s2",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (pluto)"
+  },
+  "sidereal_rotation_period": {
+   "value": -551854.08,
+   "unit": "s",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (negativo = retrógrado)"
+  },
+  "solar_day": {
+   "value": 551854.08,
+   "unit": "s",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (length of day)"
+  },
+  "axial_tilt": {
+   "value": 119.51,
+   "unit": "deg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (obliquity to orbit)"
+  },
+  "geometric_albedo": {
+   "value": 0.52,
+   "unit": "",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  }
+ },
+ "rotation": {
+  "model": "iau",
+  "pole_ra": 132.99,
+  "pole_dec": -6.16,
+  "pole_ra_rate": 0.0,
+  "pole_dec_rate": 0.0,
+  "w0": 302.695,
+  "wdot": 56.3625225,
+  "quality": "approximate",
+  "source": "IAU WGCCRE 2015 (Archinal et al. 2018); polo contrastado con NASA NSSDCA Planetary Fact Sheet"
+ },
+ "orbit": {
+  "model": "planet",
+  "frame": "ecliptic_j2000",
+  "elements": [
+   39.48168677,
+   0.24880766,
+   17.14175,
+   238.92881,
+   224.06676,
+   110.30347
+  ],
+  "rates_per_century": [
+   0.0,
+   0.0,
+   0.0,
+   145.19655477031802,
+   0.0,
+   0.0
+  ],
+  "element_order": [
+   "a_au",
+   "e",
+   "i_deg",
+   "L_deg",
+   "varpi_deg",
+   "node_deg"
+  ],
+  "quality": "approximate",
+  "source": "NASA NSSDCA Planetary Fact Sheet (Pluto; elementos J2000, tasa de L por el periodo orbital)",
+  "valid": "época J2000 (deriva fuera de ±50 años)"
+ },
+ "atmosphere": {
+  "present": true,
+  "kind": "rocky",
+  "reference_level": "surface",
+  "surface_pressure": {
+   "value": 1.3,
+   "unit": "Pa",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Pluto: ~13 µbar, 24-38 K)"
+  },
+  "surface_temperature": {
+   "value": 40.0,
+   "unit": "K",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Pluto: ~13 µbar, 24-38 K)"
+  },
+  "scale_height": {
+   "value": 50000.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Pluto: ~13 µbar, 24-38 K)"
+  },
+  "mean_molecular_weight": {
+   "value": 28.0,
+   "unit": "g/mol",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Pluto: ~13 µbar, 24-38 K)"
+  },
+  "lapse_rate": {
+   "value": 0.0,
+   "unit": "K/m",
+   "quality": "approximate",
+   "source": "Gradiente térmico típico de la troposfera"
+  },
+  "min_temperature": {
+   "value": 30.0,
+   "unit": "K",
+   "quality": "approximate",
+   "source": "Temperatura mínima de la troposfera (tropopausa)"
+  },
+  "composition": "N2 99 %, CH4 0,5 %, CO 0,05 % (NSSDC)",
+  "sky": {
+   "zenith": [
+    0.02,
+    0.02,
+    0.05
+   ],
+   "horizon": [
+    0.15,
+    0.22,
+    0.4
+   ],
+   "sunset": [
+    0.3,
+    0.4,
+    0.7
+   ],
+   "space_limb": [
+    0.35,
+    0.55,
+    0.95
+   ]
+  },
+  "visual_density": 0.03,
+  "surface_light": {
+   "value": 1.0,
+   "unit": "fracción",
+   "quality": "approximate",
+   "source": "Fracción de la luz solar que llega al suelo"
+  },
+  "visibility": {
+   "value": 1000000.0,
+   "unit": "m",
+   "quality": "approximate",
+   "source": "Visibilidad horizontal típica en superficie"
+  },
+  "clouds": [],
+  "winds": {},
+  "note": "Neblinas azules en capas vistas por New Horizons (2015)."
+ },
+ "surface": {
+  "type": "solid",
+  "terrain_profile": "pluto",
+  "seed": 1188000,
+  "terrain_note": "Topografía PROCEDURAL inspirada en Plutón (New Horizons); no son datos reales."
+ },
+ "render": {
+  "kind": "rocky",
+  "color": [
+   0.82,
+   0.7,
+   0.58
+  ],
+  "color2": [
+   0.45,
+   0.28,
+   0.22
+  ]
+ },
+ "schema_version": 1
+}

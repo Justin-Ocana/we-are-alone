@@ -1,0 +1,86 @@
+{
+ "id": "iapetus",
+ "name": "Jápeto",
+ "kind": "moon",
+ "parent": "saturn",
+ "description": "Bicolor: un hemisferio oscuro como el carbón y otro brillante, con una cresta ecuatorial de 13 km.",
+ "jpl_code": "608",
+ "physical": {
+  "mean_radius": {
+   "value": 734300.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters"
+  },
+  "mass": {
+   "value": 1.805659170250064e+21,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+  },
+  "sidereal_rotation_period": {
+   "value": 6854198.5728,
+   "unit": "s",
+   "quality": "approximate",
+   "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+  }
+ },
+ "rotation": {
+  "model": "synchronous",
+  "quality": "approximate",
+  "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+ },
+ "orbit": {
+  "model": "satellite",
+  "frame": "laplace",
+  "epoch_jd": 2451545.0,
+  "a_m": 3561700000.0,
+  "e": 0.028,
+  "w_deg": 254.5,
+  "M_deg": 74.8,
+  "i_deg": 7.6,
+  "node_deg": 86.5,
+  "period_s": 6854198.5728,
+  "apsis_period_s": 52477133040.0,
+  "node_period_s": 98784818395.2,
+  "quality": "measured",
+  "source": "JPL SSD Planetary Satellite Mean Elements (SAT441, ref. 36)",
+  "laplace_pole_ra": 288.7,
+  "laplace_pole_dec": 78.9
+ },
+ "surface": {
+  "type": "solid",
+  "terrain_profile": "iapetus",
+  "seed": 8312472,
+  "terrain_note": "Topografía PROCEDURAL inspirada en Jápeto; no son datos reales.",
+  "colors_override": {
+   "base": [
+    0.8,
+    0.78,
+    0.74
+   ],
+   "alt": [
+    0.12,
+    0.1,
+    0.09
+   ]
+  }
+ },
+ "render": {
+  "kind": "rocky",
+  "color": [
+   0.8,
+   0.78,
+   0.74
+  ],
+  "color2": [
+   0.12,
+   0.1,
+   0.09
+  ]
+ },
+ "atmosphere": {
+  "present": false
+ },
+ "schema_version": 1
+}

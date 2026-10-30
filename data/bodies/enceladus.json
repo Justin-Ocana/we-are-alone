@@ -1,0 +1,86 @@
+{
+ "id": "enceladus",
+ "name": "Encélado",
+ "kind": "moon",
+ "parent": "saturn",
+ "description": "Hielo casi blanco puro (albedo ~1). Géiseres de agua en las 'rayas de tigre' del polo sur alimentan el anillo E.",
+ "jpl_code": "602",
+ "physical": {
+  "mean_radius": {
+   "value": 252100.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters"
+  },
+  "mass": {
+   "value": 1.0803185352771078e+20,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+  },
+  "sidereal_rotation_period": {
+   "value": 118386.8352,
+   "unit": "s",
+   "quality": "approximate",
+   "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+  }
+ },
+ "rotation": {
+  "model": "synchronous",
+  "quality": "approximate",
+  "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+ },
+ "orbit": {
+  "model": "satellite",
+  "frame": "laplace",
+  "epoch_jd": 2451545.0,
+  "a_m": 238400000.0,
+  "e": 0.005,
+  "w_deg": 119.5,
+  "M_deg": 57.0,
+  "i_deg": 0.0,
+  "node_deg": 0.0,
+  "period_s": 118386.8352,
+  "apsis_period_s": 92021961.6,
+  "node_period_s": 0.0,
+  "quality": "measured",
+  "source": "JPL SSD Planetary Satellite Mean Elements (SAT441, ref. 36)",
+  "laplace_pole_ra": 40.6,
+  "laplace_pole_dec": 83.5
+ },
+ "surface": {
+  "type": "solid",
+  "terrain_profile": "enceladus",
+  "seed": 4752422,
+  "terrain_note": "Topografía PROCEDURAL inspirada en Encélado; no son datos reales.",
+  "colors_override": {
+   "base": [
+    0.97,
+    0.97,
+    0.98
+   ],
+   "alt": [
+    0.55,
+    0.75,
+    0.9
+   ]
+  }
+ },
+ "render": {
+  "kind": "rocky",
+  "color": [
+   0.97,
+   0.97,
+   0.98
+  ],
+  "color2": [
+   0.55,
+   0.75,
+   0.9
+  ]
+ },
+ "atmosphere": {
+  "present": false
+ },
+ "schema_version": 1
+}

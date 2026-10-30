@@ -1,0 +1,256 @@
+{
+ "id": "uranus",
+ "name": "Urano",
+ "kind": "planet",
+ "parent": "sun",
+ "description": "Gigante de hielo inclinado 97,8°: rueda sobre su órbita. El metano (2,3 %) absorbe el rojo y le da su color cian. 76 K a 1 bar, vientos de hasta 250 m/s.",
+ "physical": {
+  "mean_radius": {
+   "value": 25362000.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (uranus: volumetric mean radius)"
+  },
+  "mass": {
+   "value": 8.681060186086932e+25,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (uranus: GM/G)"
+  },
+  "gm": {
+   "value": 5794000000000000.0,
+   "unit": "m3/s2",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (uranus)"
+  },
+  "sidereal_rotation_period": {
+   "value": -62063.99999999999,
+   "unit": "s",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (negativo = retrógrado)"
+  },
+  "solar_day": {
+   "value": 62063.99999999999,
+   "unit": "s",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (length of day)"
+  },
+  "axial_tilt": {
+   "value": 97.77,
+   "unit": "deg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (obliquity to orbit)"
+  },
+  "geometric_albedo": {
+   "value": 0.488,
+   "unit": "",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  },
+  "equatorial_radius": {
+   "value": 25559000.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (1 bar)"
+  }
+ },
+ "rotation": {
+  "model": "iau",
+  "pole_ra": 257.311,
+  "pole_dec": -15.175,
+  "pole_ra_rate": 0.0,
+  "pole_dec_rate": 0.0,
+  "w0": 203.81,
+  "wdot": -501.1600928,
+  "quality": "approximate",
+  "source": "IAU WGCCRE 2015 (Archinal et al. 2018); polo contrastado con NASA NSSDCA Planetary Fact Sheet"
+ },
+ "orbit": {
+  "model": "planet",
+  "frame": "ecliptic_j2000",
+  "elements": [
+   19.18916464,
+   0.04725744,
+   0.77263783,
+   313.23810451,
+   170.9542763,
+   74.01692503
+  ],
+  "rates_per_century": [
+   -0.00196176,
+   -4.397e-05,
+   -0.00242939,
+   428.48202785,
+   0.40805281,
+   0.04240589
+  ],
+  "element_order": [
+   "a_au",
+   "e",
+   "i_deg",
+   "L_deg",
+   "varpi_deg",
+   "node_deg"
+  ],
+  "quality": "measured",
+  "source": "JPL SSD Approximate Positions of the Planets, Tabla 1 (Standish & Williams 1992)",
+  "valid": "1800-2050"
+ },
+ "atmosphere": {
+  "present": true,
+  "kind": "gas_giant",
+  "reference_level": "1 bar",
+  "pressure_1bar": {
+   "value": 100000.0,
+   "unit": "Pa",
+   "quality": "measured",
+   "source": "Definición del nivel de referencia (1 bar)"
+  },
+  "temperature_1bar": {
+   "value": 76.0,
+   "unit": "K",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Uranus: temperatura a 1 bar)"
+  },
+  "temperature_0p1bar": {
+   "value": 53.0,
+   "unit": "K",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Uranus: temperatura a 0,1 bar)"
+  },
+  "density_1bar": {
+   "value": 0.42,
+   "unit": "kg/m3",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Uranus: densidad a 1 bar)"
+  },
+  "scale_height": {
+   "value": 27700.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Uranus: altura de escala)"
+  },
+  "mean_molecular_weight": {
+   "value": 2.64,
+   "unit": "g/mol",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  },
+  "specific_heat_cp": {
+   "value": 13000.0,
+   "unit": "J/(kg K)",
+   "quality": "approximate",
+   "source": "Mezcla H2/He ideal (cp ≈ 3,5 R/μ)"
+  },
+  "composition": "H2 82,5 %, He 15,2 %, CH4 2,3 %; HD 148 ppm (NSSDC)",
+  "clouds": [
+   {
+    "name": "Nubes de metano (CH4)",
+    "p_top_bar": 1.0,
+    "p_base_bar": 1.5,
+    "color": [
+     0.8,
+     0.95,
+     0.97
+    ],
+    "opacity": 0.6,
+    "quality": "approximate",
+    "note": "Modelo de condensación"
+   },
+   {
+    "name": "Sulfuro de hidrógeno (H2S)",
+    "p_top_bar": 3.0,
+    "p_base_bar": 5.0,
+    "color": [
+     0.62,
+     0.78,
+     0.8
+    ],
+    "opacity": 0.85,
+    "quality": "approximate",
+    "note": "Modelo; detectado por Gemini (2018)"
+   },
+   {
+    "name": "Hidrosulfuro de amonio (NH4SH)",
+    "p_top_bar": 20.0,
+    "p_base_bar": 40.0,
+    "color": [
+     0.45,
+     0.55,
+     0.58
+    ],
+    "opacity": 0.95,
+    "quality": "approximate",
+    "note": "Modelo de condensación"
+   }
+  ],
+  "winds": {
+   "max_mps": 250.0,
+   "note": "0-250 m/s (NSSDC)"
+  },
+  "wind_model": {
+   "type": "ice",
+   "equator_mps": -100.0,
+   "max_mps": 250.0,
+   "jet_lat": 60.0
+  },
+  "lightning": false,
+  "sky_above_clouds": [
+   0.45,
+   0.75,
+   0.85
+  ],
+  "deep_color": [
+   0.12,
+   0.25,
+   0.3
+  ],
+  "note": "Sin superficie sólida: la presión y la temperatura crecen sin límite al descender. "
+ },
+ "surface": {
+  "type": "none",
+  "terrain_note": "Gigante de hielo: no hay suelo."
+ },
+ "render": {
+  "kind": "gas",
+  "color": [
+   0.66,
+   0.87,
+   0.9
+  ],
+  "color2": [
+   0.58,
+   0.8,
+   0.84
+  ],
+  "band_count": 6,
+  "band_contrast": 0.06,
+  "flattening": 0.02293,
+  "turbulence": 0.1,
+  "rings": [
+   {
+    "name": "Anillo ε",
+    "inner_m": 51100000.0,
+    "outer_m": 51200000.0,
+    "opacity": 0.4,
+    "color": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   {
+    "name": "Anillos 6-δ",
+    "inner_m": 41800000.0,
+    "outer_m": 48300000.0,
+    "opacity": 0.04,
+    "color": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   }
+  ]
+ },
+ "schema_version": 1
+}

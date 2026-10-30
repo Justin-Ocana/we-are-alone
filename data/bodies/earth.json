@@ -1,0 +1,123 @@
+{
+ "id": "earth",
+ "name": "Tierra",
+ "kind": "planet",
+ "parent": "sun",
+ "description": "LORE: la Tierra ha sido destruida. Sus grandes fragmentos, todavía reconocibles (continentes, fondos oceánicos secos), giran despacio alrededor de un núcleo al rojo; la Luna sigue en su órbita.",
+ "physical": {
+  "mean_radius": {
+   "value": 6371000.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (earth: volumetric mean radius)"
+  },
+  "mass": {
+   "value": 5.972161874653522e+24,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (earth: GM/G)"
+  },
+  "gm": {
+   "value": 398600000000000.0,
+   "unit": "m3/s2",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (earth)"
+  },
+  "sidereal_rotation_period": {
+   "value": 86164.2,
+   "unit": "s",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (negativo = retrógrado)"
+  },
+  "solar_day": {
+   "value": 86400.0,
+   "unit": "s",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (length of day)"
+  },
+  "axial_tilt": {
+   "value": 23.44,
+   "unit": "deg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (obliquity to orbit)"
+  },
+  "geometric_albedo": {
+   "value": 0.434,
+   "unit": "",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  }
+ },
+ "rotation": {
+  "model": "iau",
+  "pole_ra": 0.0,
+  "pole_dec": 90.0,
+  "pole_ra_rate": -0.641,
+  "pole_dec_rate": -0.557,
+  "w0": 190.147,
+  "wdot": 360.9856235,
+  "quality": "approximate",
+  "source": "IAU WGCCRE 2015 (Archinal et al. 2018); polo contrastado con NASA NSSDCA Planetary Fact Sheet"
+ },
+ "orbit": {
+  "model": "planet",
+  "frame": "ecliptic_j2000",
+  "elements": [
+   1.00000261,
+   0.01671123,
+   -1.531e-05,
+   100.46457166,
+   102.93768193,
+   0.0
+  ],
+  "rates_per_century": [
+   5.62e-06,
+   -4.392e-05,
+   -0.01294668,
+   35999.37244981,
+   0.32327364,
+   0.0
+  ],
+  "element_order": [
+   "a_au",
+   "e",
+   "i_deg",
+   "L_deg",
+   "varpi_deg",
+   "node_deg"
+  ],
+  "quality": "measured",
+  "source": "JPL SSD Approximate Positions of the Planets, Tabla 1 (Standish & Williams 1992)",
+  "valid": "1800-2050"
+ },
+ "atmosphere": {
+  "present": false,
+  "note": "LORE: atmósfera y océanos perdidos tras la destrucción."
+ },
+ "surface": {
+  "type": "shattered",
+  "seed": 6371000,
+  "terrain_note": "LORE (ficción del juego): Tierra fragmentada. Contornos continentales aproximados.",
+  "fragments": 11,
+  "expansion": 1.32,
+  "core_radius_fraction": 0.33,
+  "tumble_period_h": [
+   30.0,
+   140.0
+  ]
+ },
+ "render": {
+  "kind": "shattered",
+  "color": [
+   0.35,
+   0.42,
+   0.3
+  ],
+  "color2": [
+   0.15,
+   0.22,
+   0.38
+  ]
+ },
+ "schema_version": 1
+}

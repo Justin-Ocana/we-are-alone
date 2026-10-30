@@ -1,0 +1,54 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="We Are Alone?"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="WeAreAlone"
+config/project_settings_override="user://graficos.cfg"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[audio]
+
+driver/enable_input=true
+
+[autoload]
+
+FloatingOrigin="*res://src/core/floating_origin.gd"
+GameInput="*res://src/core/game_input.gd"
+GameSettings="*res://src/core/game_settings.gd"
+GameAudio="*res://src/core/game_audio.gd"
+Net="*res://src/net/net_session.gd"
+Voice="*res://src/net/voice/voice_chat.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+3d/default_gravity=0.0
+common/physics_ticks_per_second=60
+common/physics_interpolation=true
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+gl_compatibility/force_angle_on_devices=[]
+gl_compatibility/fallback_to_angle=true
+rendering_device/driver.windows="d3d12"

@@ -1,0 +1,30 @@
+WE ARE ALONE?  (v0.8.1, versión de pruebas)
+==========================================
+
+CÓMO INSTALAR
+1. Descomprime el .zip en una carpeta (por ejemplo, en el Escritorio).
+2. Deja juntos WeAreAlone.exe y WeAreAlone.pck (el .exe necesita el .pck al lado, con ese nombre).
+3. Abre WeAreAlone.exe. Si Windows SmartScreen avisa ("Windows protegió su PC"): "Más información" > "Ejecutar de
+   todas formas" (el juego no está firmado). El ejecutable es el motor Godot 4.7.2 oficial, por eso su icono es el de Godot.
+
+JUGAR JUNTOS (EN LÍNEA)
+- Los dos tenéis que usar EXACTAMENTE esta misma versión (v0.8.1). Si no, el juego avisa de "versión distinta".
+- Quien hace de ANFITRIÓN: Menú > EN LÍNEA > Crear sala > CREAR SALA.
+  * La primera vez Windows pregunta por el Firewall: marca redes PRIVADAS y PÚBLICAS y pulsa Permitir.
+  * En la sala, "Copiar dirección" copia IP:puerto para mandársela a tu amigo.
+  * El juego intenta abrir el puerto del router solo (UPnP). Si tu amigo no puede entrar: abre a mano el puerto
+    UDP 7777 en el router hacia tu PC, o usad los dos una red virtual gratuita (Radmin VPN, ZeroTier o Tailscale)
+    y uníos con la IP que os dé.
+- Quien se UNE: Menú > EN LÍNEA > Unirse > pega la dirección (IP o IP:puerto) > Unirse.
+- En la sala: todos pulsan "LISTO" y el anfitrión pulsa "INICIAR PARTIDA". Cargáis y empezáis a la vez.
+
+MÚSICA DE LA NAVE
+- Sentado en la nave pulsa M: pon tus MP3/OGG (carpeta Música de Windows o "Abrir carpeta de música").
+- En línea, lo que pone uno lo oyen todos: el juego envía la canción a los demás (tarda unos segundos la primera vez).
+
+VOZ
+- Cerca se os oye directamente (sin efectos). Radio: mantener Bloq Mayús. Canal de la nave: º. Cambiar canal: 7.
+- Opciones > Voz: micrófono, volúmenes, prueba de micrófono, teclas.
+
+TUS DATOS
+- Partidas y ajustes en %APPDATA%\WeAreAlone\ (borra esa carpeta para empezar de cero).

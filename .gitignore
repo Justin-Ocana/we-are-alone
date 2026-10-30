@@ -1,0 +1,7 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Paquete para compartir (tools/build.ps1): binarios grandes, no van al repositorio
+build/
+*.zip

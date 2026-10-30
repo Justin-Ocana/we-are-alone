@@ -1,0 +1,427 @@
+{
+ "speaker": "Magnus Blackwell",
+ "audio": "res://assets/audio/prologue/magnus.mp3",
+ "note": "Subtítulos corregidos a mano a partir de la transcripción automática del usuario (nombres: Magnus Blackwell, MacSpaces, CajaFuerte, NEXUS).",
+ "lines": [
+  {
+   "start": 0.59,
+   "end": 2.41,
+   "text": "Hola, hola... ¿Funciona?"
+  },
+  {
+   "start": 2.43,
+   "end": 3.63,
+   "text": "¿Me escuchas?"
+  },
+  {
+   "start": 3.94,
+   "end": 5.13,
+   "text": "Sí."
+  },
+  {
+   "start": 4.5,
+   "end": 5.7,
+   "text": "Perfecto."
+  },
+  {
+   "start": 5.86,
+   "end": 7.5,
+   "text": "Magnus Blackwell, a tu servicio."
+  },
+  {
+   "start": 7.52,
+   "end": 9.74,
+   "text": "CEO, fundador y, modestia aparte,"
+  },
+  {
+   "start": 9.92,
+   "end": 15.56,
+   "text": "el hombre que probablemente construyó el último lugar decente que le queda a la humanidad."
+  },
+  {
+   "start": 15.6,
+   "end": 16.8,
+   "text": "Bienvenido a MacSpaces."
+  },
+  {
+   "start": 18.08,
+   "end": 26.77,
+   "text": "La empresa líder en innovación aeroespacial, exploración interplanetaria y, por supuesto, en encontrar soluciones a problemas que el resto de la humanidad prefiere ignorar."
+  },
+  {
+   "start": 28.14,
+   "end": 29.44,
+   "text": "¿Que la Tierra se está yendo a la mierda?"
+  },
+  {
+   "start": 29.84,
+   "end": 32.5,
+   "text": "Nosotros construimos una base en la Luna."
+  },
+  {
+   "start": 32.54,
+   "end": 33.91,
+   "text": "¿Que la humanidad podría extinguirse?"
+  },
+  {
+   "start": 34.28,
+   "end": 38.33,
+   "text": "Nosotros inventamos la forma de ponerla a dormir."
+  },
+  {
+   "start": 38.35,
+   "end": 40.43,
+   "text": "¿Que nadie tiene un plan para el día después del apocalipsis?"
+  },
+  {
+   "start": 40.89,
+   "end": 43.83,
+   "text": "Bueno, bebé, para eso me tienes a mí."
+  },
+  {
+   "start": 43.85,
+   "end": 45.89,
+   "text": "Ahora, espero que tengas la memoria intacta."
+  },
+  {
+   "start": 45.91,
+   "end": 50.73,
+   "text": "Sería una pena mantener tu cabeza a salvo tantos años para descubrir que lo has olvidado todo."
+  },
+  {
+   "start": 50.75,
+   "end": 52.81,
+   "text": "Qué feo, ¿no?"
+  },
+  {
+   "start": 52.83,
+   "end": 54.35,
+   "text": "Bueno, por si acaso, vamos con un pequeño"
+  },
+  {
+   "start": 54.77,
+   "end": 55.97,
+   "text": "refresco de memoria."
+  },
+  {
+   "start": 56.27,
+   "end": 66.43,
+   "text": "Hace tiempo, MacSpaces puso en marcha el proyecto CajaFuerte: una iniciativa sin precedentes, diseñada para preservar a la humanidad en caso de que la Tierra dejara de ser un lugar habitable."
+  },
+  {
+   "start": 67.57,
+   "end": 75.33,
+   "text": "Tú te inscribiste voluntariamente. Ya sabes: firmaste los documentos, aceptaste las condiciones y, a cambio, nosotros nos encargamos de todo lo demás."
+  },
+  {
+   "start": 75.38,
+   "end": 81.4,
+   "text": "Criopreservación, alojamiento lunar, soporte vital... un paquete bastante completo, si me preguntas."
+  },
+  {
+   "start": 82.12,
+   "end": 83.32,
+   "text": "Y sí, antes de que preguntes,"
+  },
+  {
+   "start": 83.84,
+   "end": 90.23,
+   "text": "la letra pequeña era bastante larga, pero... oye, nadie confía en el futuro sin unos cuantos términos y condiciones."
+  },
+  {
+   "start": 90.29,
+   "end": 92.95,
+   "text": "En fin, vamos a lo importante."
+  },
+  {
+   "start": 93.01,
+   "end": 94.35,
+   "text": "Estamos jodidos."
+  },
+  {
+   "start": 94.39,
+   "end": 95.59,
+   "text": "Jodidos de verdad."
+  },
+  {
+   "start": 95.49,
+   "end": 97.69,
+   "text": "No tengo ni idea de qué hay ahí fuera."
+  },
+  {
+   "start": 98.21,
+   "end": 104.53,
+   "text": "Las comunicaciones están muertas, las instalaciones están desmanteladas y los registros... no son buenos."
+  },
+  {
+   "start": 104.55,
+   "end": 107.41,
+   "text": "Digamos que son bastante pesimistas."
+  },
+  {
+   "start": 107.43,
+   "end": 108.63,
+   "text": "¿La Tierra?"
+  },
+  {
+   "start": 108.37,
+   "end": 109.57,
+   "text": "Ni idea."
+  },
+  {
+   "start": 108.79,
+   "end": 109.99,
+   "text": "¿El resto de la humanidad?"
+  },
+  {
+   "start": 109.83,
+   "end": 111.03,
+   "text": "Ni idea."
+  },
+  {
+   "start": 111.95,
+   "end": 113.36,
+   "text": "¿El estado de nuestras instalaciones?"
+  },
+  {
+   "start": 113.95,
+   "end": 116.17,
+   "text": "Bueno, ya sabes la respuesta."
+  },
+  {
+   "start": 116.23,
+   "end": 121.22,
+   "text": "Y tú, tú, amigo mío, eres lo más parecido a una oportunidad que nos queda."
+  },
+  {
+   "start": 121.6,
+   "end": 124.6,
+   "text": "Bueno, tú y tu equipo, si es que se despertaron, pero..."
+  },
+  {
+   "start": 124.62,
+   "end": 127.62,
+   "text": "No sé cuántos años han pasado, pero no te he despertado por nada."
+  },
+  {
+   "start": 128.44,
+   "end": 129.86,
+   "text": "Para eso ya tienes el resto del universo."
+  },
+  {
+   "start": 130.2,
+   "end": 131.43,
+   "text": "Y tu soledad, ¿no?"
+  },
+  {
+   "start": 132.41,
+   "end": 134.13,
+   "text": "Te he despertado porque tenemos un trabajo."
+  },
+  {
+   "start": 134.49,
+   "end": 139.01,
+   "text": "Antes de que todo se fuera al carajo, estábamos desarrollando uno de nuestros proyectos más ambiciosos."
+  },
+  {
+   "start": 139.8,
+   "end": 150.74,
+   "text": "El NEXUS: un sistema de cartografía universal diseñado para registrar cuerpos celestes, identificar mundos potencialmente habitables y trazar rutas estelares que hasta ahora solo pudimos soñar con alcanzar."
+  },
+  {
+   "start": 151.5,
+   "end": 160.35,
+   "text": "Un nuevo hogar, una segunda oportunidad y, si me permites decirlo, una oportunidad de negocio absolutamente extraordinaria. Imagina las posibilidades."
+  },
+  {
+   "start": 161.41,
+   "end": 163.79,
+   "text": "Por supuesto, no todo el mundo compartía mi visión."
+  },
+  {
+   "start": 164.47,
+   "end": 166.61,
+   "text": "El proyecto Horizons iba a cambiarlo todo."
+  },
+  {
+   "start": 167.09,
+   "end": 169.24,
+   "text": "Era el siguiente paso en nuestra transformación."
+  },
+  {
+   "start": 169.78,
+   "end": 171.34,
+   "text": "Una apuesta por el futuro de la humanidad."
+  },
+  {
+   "start": 171.78,
+   "end": 176.06,
+   "text": "Pero esos maravillosos gobiernos, esos departamentos de seguridad, decidieron cancelarlo."
+  },
+  {
+   "start": 176.08,
+   "end": 177.3,
+   "text": "¿Por qué?"
+  },
+  {
+   "start": 177.7,
+   "end": 183.57,
+   "text": "Porque, aparentemente, innovar es aceptable siempre y cuando no asuste a un maldito político."
+  },
+  {
+   "start": 183.87,
+   "end": 187.49,
+   "text": "Que esas investigaciones eran demasiado arriesgadas, que necesitaban un enfoque más prudente."
+  },
+  {
+   "start": 187.83,
+   "end": 189.87,
+   "text": "¿Que una empresa privada no puede hacer algo semejante?"
+  },
+  {
+   "start": 189.89,
+   "end": 191.09,
+   "text": "¿Poder?"
+  },
+  {
+   "start": 190.77,
+   "end": 191.97,
+   "text": "¿Poder?"
+  },
+  {
+   "start": 191.85,
+   "end": 193.57,
+   "text": "¿Conservar el futuro de nuestra especie?"
+  },
+  {
+   "start": 194.37,
+   "end": 196.85,
+   "text": "En fin, ya sabes cómo son estas cosas."
+  },
+  {
+   "start": 196.87,
+   "end": 205.11,
+   "text": "Los genios construimos el futuro, los mediocres lo frenan a cada paso... y nos obligaron a suspenderlo."
+  },
+  {
+   "start": 205.19,
+   "end": 207.06,
+   "text": "Aunque, por suerte, no consiguieron borrarlo todo."
+  },
+  {
+   "start": 207.97,
+   "end": 211.36,
+   "text": "El NEXUS fue dividido en seis componentes y distribuido entre las instalaciones"
+  },
+  {
+   "start": 212.1,
+   "end": 216.12,
+   "text": "de la Luna, Mercurio, Venus, Marte, Europa y Titán."
+  },
+  {
+   "start": 216.58,
+   "end": 221.5,
+   "text": "Por razones de seguridad, aparentemente. O por otras razones que no vienen al caso."
+  },
+  {
+   "start": 222.38,
+   "end": 224.1,
+   "text": "El problema es que nadie ha recuperado esos componentes."
+  },
+  {
+   "start": 224.5,
+   "end": 228.87,
+   "text": "Así que... aquí es donde entras tú."
+  },
+  {
+   "start": 228.93,
+   "end": 237.57,
+   "text": "Vas a recorrer esas instalaciones, reactivar lo que siga funcionando, si es que puedes, y recuperar las piezas del NEXUS... ¡Ah!"
+  },
+  {
+   "start": 237.59,
+   "end": 238.79,
+   "text": "Casi se me olvida algo más."
+  },
+  {
+   "start": 238.57,
+   "end": 239.77,
+   "text": "Los embriones."
+  },
+  {
+   "start": 239.47,
+   "end": 242.61,
+   "text": "En alguna parte de esas instalaciones se encuentra nuestro banco de embriones."
+  },
+  {
+   "start": 243.79,
+   "end": 245.26,
+   "text": "Humanos, por si acaso."
+  },
+  {
+   "start": 245.32,
+   "end": 246.92,
+   "text": "Reservados para garantizar la continuidad de la especie."
+  },
+  {
+   "start": 247.28,
+   "end": 252.94,
+   "text": "Si encuentras un mundo adecuado, tendrás que llevarlos allí y establecer las condiciones necesarias para que nuevas generaciones puedan crecer."
+  },
+  {
+   "start": 253.69,
+   "end": 257.07,
+   "text": "Y bueno, si no encuentras los embriones... bueno, tienes a tu equipo, ¿no?"
+  },
+  {
+   "start": 257.15,
+   "end": 259.54,
+   "text": "Ah, y una última cosa, ya lo vas a entender."
+  },
+  {
+   "start": 260.62,
+   "end": 265.64,
+   "text": "MacSpaces invirtió décadas en investigación, recursos y capital para hacer esto posible."
+  },
+  {
+   "start": 266.36,
+   "end": 267.72,
+   "text": "Así que no toques nada."
+  },
+  {
+   "start": 268.68,
+   "end": 269.88,
+   "text": "Deja todo como está."
+  },
+  {
+   "start": 270.0,
+   "end": 271.82,
+   "text": "Encuentra el NEXUS y un mundo habitable."
+  },
+  {
+   "start": 272.17,
+   "end": 275.07,
+   "text": "Y asegúrate de construir algo que... perdure."
+  },
+  {
+   "start": 276.23,
+   "end": 277.43,
+   "text": "En fin."
+  },
+  {
+   "start": 277.57,
+   "end": 279.29,
+   "text": "Bienvenido a MacSpaces."
+  },
+  {
+   "start": 279.31,
+   "end": 281.37,
+   "text": "El futuro de la humanidad está en tus manos."
+  },
+  {
+   "start": 281.39,
+   "end": 282.63,
+   "text": "Procura no dejarlo caer."
+  }
+ ]
+}

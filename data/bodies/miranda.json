@@ -1,0 +1,84 @@
+{
+ "id": "miranda",
+ "name": "Miranda",
+ "kind": "moon",
+ "parent": "uranus",
+ "description": "Mosaico caótico de terrenos ('coronae') y Verona Rupes, quizá el acantilado más alto del Sistema Solar (~20 km).",
+ "jpl_code": "705",
+ "physical": {
+  "mean_radius": {
+   "value": 235800.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters"
+  },
+  "mass": {
+   "value": 6.442623196440077e+19,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+  },
+  "sidereal_rotation_period": {
+   "value": 122124.58559999999,
+   "unit": "s",
+   "quality": "approximate",
+   "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+  }
+ },
+ "rotation": {
+  "model": "synchronous",
+  "quality": "approximate",
+  "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+ },
+ "orbit": {
+  "model": "satellite",
+  "frame": "equatorial",
+  "epoch_jd": 2451545.0,
+  "a_m": 129846000.0,
+  "e": 0.001,
+  "w_deg": 154.8,
+  "M_deg": 73.0,
+  "i_deg": 4.4,
+  "node_deg": 100.9,
+  "period_s": 122124.58559999999,
+  "apsis_period_s": 282093386.40000004,
+  "node_period_s": 561315031.1999999,
+  "quality": "measured",
+  "source": "JPL SSD Planetary Satellite Mean Elements (URA182, ref. 45)"
+ },
+ "surface": {
+  "type": "solid",
+  "terrain_profile": "miranda",
+  "seed": 5932783,
+  "terrain_note": "Topografía PROCEDURAL inspirada en Miranda; no son datos reales.",
+  "colors_override": {
+   "base": [
+    0.7,
+    0.7,
+    0.7
+   ],
+   "alt": [
+    0.5,
+    0.5,
+    0.52
+   ]
+  }
+ },
+ "render": {
+  "kind": "rocky",
+  "color": [
+   0.7,
+   0.7,
+   0.7
+  ],
+  "color2": [
+   0.5,
+   0.5,
+   0.52
+  ]
+ },
+ "atmosphere": {
+  "present": false
+ },
+ "schema_version": 1
+}

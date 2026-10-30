@@ -1,0 +1,189 @@
+{
+ "id": "titan",
+ "name": "Titán",
+ "kind": "moon",
+ "parent": "saturn",
+ "description": "Única luna con atmósfera densa (1,47 bar de N2, 94 K). Neblina naranja, dunas oscuras, ríos y lagos de metano/etano líquido cerca de los polos (Cassini-Huygens).",
+ "jpl_code": "606",
+ "physical": {
+  "mean_radius": {
+   "value": 2574760.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters"
+  },
+  "mass": {
+   "value": 1.3451803335181219e+23,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+  },
+  "sidereal_rotation_period": {
+   "value": 1377686.7072,
+   "unit": "s",
+   "quality": "approximate",
+   "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+  }
+ },
+ "rotation": {
+  "model": "synchronous",
+  "quality": "approximate",
+  "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+ },
+ "orbit": {
+  "model": "satellite",
+  "frame": "laplace",
+  "epoch_jd": 2451545.0,
+  "a_m": 1221900000.0,
+  "e": 0.029,
+  "w_deg": 78.3,
+  "M_deg": 11.7,
+  "i_deg": 0.3,
+  "node_deg": 78.6,
+  "period_s": 1377686.7072,
+  "apsis_period_s": 10940388768.0,
+  "node_period_s": 21691747512.0,
+  "quality": "measured",
+  "source": "JPL SSD Planetary Satellite Mean Elements (SAT441, ref. 36)",
+  "laplace_pole_ra": 36.4,
+  "laplace_pole_dec": 84.0
+ },
+ "surface": {
+  "type": "solid",
+  "terrain_profile": "titan",
+  "seed": 2902870,
+  "terrain_note": "Topografía PROCEDURAL inspirada en Titán; no son datos reales.",
+  "colors_override": {
+   "base": [
+    0.85,
+    0.62,
+    0.3
+   ],
+   "alt": [
+    0.35,
+    0.25,
+    0.15
+   ]
+  }
+ },
+ "render": {
+  "kind": "clouded",
+  "color": [
+   0.85,
+   0.62,
+   0.3
+  ],
+  "color2": [
+   0.35,
+   0.25,
+   0.15
+  ]
+ },
+ "atmosphere": {
+  "present": true,
+  "kind": "rocky",
+  "reference_level": "surface",
+  "surface_pressure": {
+   "value": 146700.0,
+   "unit": "Pa",
+   "quality": "measured",
+   "source": "Huygens HASI (Fulchignoni et al. 2005): 1467 hPa, 93,7 K"
+  },
+  "surface_temperature": {
+   "value": 93.7,
+   "unit": "K",
+   "quality": "measured",
+   "source": "Huygens HASI (Fulchignoni et al. 2005): 1467 hPa, 93,7 K"
+  },
+  "scale_height": {
+   "value": 20600.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "Huygens HASI (Fulchignoni et al. 2005): 1467 hPa, 93,7 K"
+  },
+  "mean_molecular_weight": {
+   "value": 27.8,
+   "unit": "g/mol",
+   "quality": "measured",
+   "source": "Huygens HASI (Fulchignoni et al. 2005): 1467 hPa, 93,7 K"
+  },
+  "lapse_rate": {
+   "value": 0.0012,
+   "unit": "K/m",
+   "quality": "approximate",
+   "source": "Gradiente térmico típico de la troposfera"
+  },
+  "min_temperature": {
+   "value": 70.0,
+   "unit": "K",
+   "quality": "approximate",
+   "source": "Temperatura mínima de la troposfera (tropopausa)"
+  },
+  "composition": "N2 ~95 %, CH4 ~4,9-5,7 % cerca de la superficie (Huygens GCMS), hidrocarburos y tolinas",
+  "sky": {
+   "zenith": [
+    0.55,
+    0.38,
+    0.16
+   ],
+   "horizon": [
+    0.85,
+    0.6,
+    0.28
+   ],
+   "sunset": [
+    0.7,
+    0.4,
+    0.15
+   ],
+   "space_limb": [
+    0.95,
+    0.65,
+    0.3
+   ]
+  },
+  "visual_density": 1.0,
+  "surface_light": {
+   "value": 0.01,
+   "unit": "fracción",
+   "quality": "approximate",
+   "source": "Fracción de la luz solar que llega al suelo"
+  },
+  "visibility": {
+   "value": 30000.0,
+   "unit": "m",
+   "quality": "approximate",
+   "source": "Visibilidad horizontal típica en superficie"
+  },
+  "clouds": [
+   {
+    "name": "Neblina de tolinas",
+    "bottom_m": 30000,
+    "top_m": 300000,
+    "color": [
+     0.85,
+     0.58,
+     0.25
+    ],
+    "opacity": 0.9
+   },
+   {
+    "name": "Nubes de metano",
+    "bottom_m": 8000,
+    "top_m": 20000,
+    "color": [
+     0.9,
+     0.85,
+     0.75
+    ],
+    "opacity": 0.3
+   }
+  ],
+  "winds": {
+   "surface_mps": 1.0,
+   "note": "Vientos suaves en superficie (Huygens); fuertes en la estratosfera"
+  },
+  "note": "La neblina se aclaró a menos de ~20-30 km de altitud durante el descenso de Huygens; luz en superficie ~0,1-1 %."
+ },
+ "schema_version": 1
+}

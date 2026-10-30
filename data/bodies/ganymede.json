@@ -1,0 +1,86 @@
+{
+ "id": "ganymede",
+ "name": "Ganímedes",
+ "kind": "moon",
+ "parent": "jupiter",
+ "description": "La luna más grande del Sistema Solar (mayor que Mercurio), con campo magnético propio y terreno de surcos.",
+ "jpl_code": "503",
+ "physical": {
+  "mean_radius": {
+   "value": 2631200.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters"
+  },
+  "mass": {
+   "value": 1.4814786194806948e+23,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+  },
+  "sidereal_rotation_period": {
+   "value": 618242.8032,
+   "unit": "s",
+   "quality": "approximate",
+   "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+  }
+ },
+ "rotation": {
+  "model": "synchronous",
+  "quality": "approximate",
+  "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+ },
+ "orbit": {
+  "model": "satellite",
+  "frame": "laplace",
+  "epoch_jd": 2451545.0,
+  "a_m": 1070400000.0,
+  "e": 0.001,
+  "w_deg": 198.3,
+  "M_deg": 324.8,
+  "i_deg": 0.2,
+  "node_deg": 58.5,
+  "period_s": 618242.8032,
+  "apsis_period_s": 2155415637.6,
+  "node_period_s": 4349015971.200001,
+  "quality": "measured",
+  "source": "JPL SSD Planetary Satellite Mean Elements (JUP365, ref. 29)",
+  "laplace_pole_ra": 268.2,
+  "laplace_pole_dec": 64.6
+ },
+ "surface": {
+  "type": "solid",
+  "terrain_profile": "ganymede",
+  "seed": 2009239,
+  "terrain_note": "Topografía PROCEDURAL inspirada en Ganímedes; no son datos reales.",
+  "colors_override": {
+   "base": [
+    0.62,
+    0.58,
+    0.52
+   ],
+   "alt": [
+    0.38,
+    0.35,
+    0.32
+   ]
+  }
+ },
+ "render": {
+  "kind": "rocky",
+  "color": [
+   0.62,
+   0.58,
+   0.52
+  ],
+  "color2": [
+   0.38,
+   0.35,
+   0.32
+  ]
+ },
+ "atmosphere": {
+  "present": false
+ },
+ "schema_version": 1
+}

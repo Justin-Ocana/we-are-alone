@@ -1,0 +1,86 @@
+{
+ "id": "europa",
+ "name": "Europa",
+ "kind": "moon",
+ "parent": "jupiter",
+ "description": "Corteza de hielo surcada de grietas (lineae) sobre un océano global de agua salada.",
+ "jpl_code": "502",
+ "physical": {
+  "mean_radius": {
+   "value": 1560800.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters"
+  },
+  "mass": {
+   "value": 4.7985737830184444e+22,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+  },
+  "sidereal_rotation_period": {
+   "value": 304600.0032,
+   "unit": "s",
+   "quality": "approximate",
+   "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+  }
+ },
+ "rotation": {
+  "model": "synchronous",
+  "quality": "approximate",
+  "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+ },
+ "orbit": {
+  "model": "satellite",
+  "frame": "laplace",
+  "epoch_jd": 2451545.0,
+  "a_m": 671100000.0,
+  "e": 0.009,
+  "w_deg": 45.0,
+  "M_deg": 345.4,
+  "i_deg": 0.5,
+  "node_deg": 184.0,
+  "period_s": 304600.0032,
+  "apsis_period_s": 43991294.4,
+  "node_period_s": 953102635.2,
+  "quality": "measured",
+  "source": "JPL SSD Planetary Satellite Mean Elements (JUP365, ref. 29)",
+  "laplace_pole_ra": 268.1,
+  "laplace_pole_dec": 64.5
+ },
+ "surface": {
+  "type": "solid",
+  "terrain_profile": "europa",
+  "seed": 1087343,
+  "terrain_note": "Topografía PROCEDURAL inspirada en Europa; no son datos reales.",
+  "colors_override": {
+   "base": [
+    0.86,
+    0.8,
+    0.72
+   ],
+   "alt": [
+    0.55,
+    0.35,
+    0.25
+   ]
+  }
+ },
+ "render": {
+  "kind": "rocky",
+  "color": [
+   0.86,
+   0.8,
+   0.72
+  ],
+  "color2": [
+   0.55,
+   0.35,
+   0.25
+  ]
+ },
+ "atmosphere": {
+  "present": false
+ },
+ "schema_version": 1
+}

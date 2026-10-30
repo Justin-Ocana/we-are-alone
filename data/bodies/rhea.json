@@ -1,0 +1,86 @@
+{
+ "id": "rhea",
+ "name": "Rea",
+ "kind": "moon",
+ "parent": "saturn",
+ "description": "Segunda luna de Saturno, hielo muy craterizado.",
+ "jpl_code": "605",
+ "physical": {
+  "mean_radius": {
+   "value": 763500.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters"
+  },
+  "mass": {
+   "value": 2.3064853243036725e+21,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+  },
+  "sidereal_rotation_period": {
+   "value": 390312.2592,
+   "unit": "s",
+   "quality": "approximate",
+   "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+  }
+ },
+ "rotation": {
+  "model": "synchronous",
+  "quality": "approximate",
+  "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+ },
+ "orbit": {
+  "model": "satellite",
+  "frame": "laplace",
+  "epoch_jd": 2451545.0,
+  "a_m": 527200000.0,
+  "e": 0.001,
+  "w_deg": 44.3,
+  "M_deg": 31.5,
+  "i_deg": 0.3,
+  "node_deg": 133.7,
+  "period_s": 390312.2592,
+  "apsis_period_s": 1071033386.4,
+  "node_period_s": 1128973140.0,
+  "quality": "measured",
+  "source": "JPL SSD Planetary Satellite Mean Elements (SAT441, ref. 36)",
+  "laplace_pole_ra": 40.6,
+  "laplace_pole_dec": 83.5
+ },
+ "surface": {
+  "type": "solid",
+  "terrain_profile": "icy_cratered",
+  "seed": 630247,
+  "terrain_note": "Topografía PROCEDURAL inspirada en Rea; no son datos reales.",
+  "colors_override": {
+   "base": [
+    0.78,
+    0.78,
+    0.78
+   ],
+   "alt": [
+    0.58,
+    0.58,
+    0.6
+   ]
+  }
+ },
+ "render": {
+  "kind": "rocky",
+  "color": [
+   0.78,
+   0.78,
+   0.78
+  ],
+  "color2": [
+   0.58,
+   0.58,
+   0.6
+  ]
+ },
+ "atmosphere": {
+  "present": false
+ },
+ "schema_version": 1
+}

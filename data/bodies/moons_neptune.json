@@ -1,0 +1,1101 @@
+{
+ "schema_version": 1,
+ "collection": "moons_neptune",
+ "source": "JPL SSD Planetary Satellite Mean Elements / Physical Parameters (data/sources)",
+ "bodies": [
+  {
+   "id": "neptune_naiad",
+   "name": "Naiad",
+   "kind": "moon_minor",
+   "parent": "neptune",
+   "description": "Satélite de Neptune (elementos medios JPL).",
+   "jpl_code": "803",
+   "physical": {
+    "mean_radius": {
+     "value": 29000.0,
+     "unit": "m",
+     "quality": "measured",
+     "source": "JPL SSD Planetary Satellite Physical Parameters"
+    },
+    "mass": {
+     "value": 1.2780366480379966e+17,
+     "unit": "kg",
+     "quality": "measured",
+     "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+    },
+    "sidereal_rotation_period": {
+     "value": 25399.872000000003,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2451545.0,
+    "a_m": 48200000.0,
+    "e": 0.0,
+    "w_deg": 0.0,
+    "M_deg": 89.7,
+    "i_deg": 4.7,
+    "node_deg": 41.4,
+    "period_s": 25399.872000000003,
+    "apsis_period_s": 0.0,
+    "node_period_s": 18145620.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (NEP097, ref. 24)",
+    "laplace_pole_ra": 299.7,
+    "laplace_pole_dec": 42.7
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 880,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "neptune_thalassa",
+   "name": "Thalassa",
+   "kind": "moon_minor",
+   "parent": "neptune",
+   "description": "Satélite de Neptune (elementos medios JPL).",
+   "jpl_code": "804",
+   "physical": {
+    "mean_radius": {
+     "value": 40000.0,
+     "unit": "m",
+     "quality": "measured",
+     "source": "JPL SSD Planetary Satellite Physical Parameters"
+    },
+    "mass": {
+     "value": 3.5344530512563117e+17,
+     "unit": "kg",
+     "quality": "measured",
+     "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+    },
+    "sidereal_rotation_period": {
+     "value": 26877.1392,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2451545.0,
+    "a_m": 50100000.0,
+    "e": 0.0,
+    "w_deg": 0.0,
+    "M_deg": 165.7,
+    "i_deg": 0.2,
+    "node_deg": 130.6,
+    "period_s": 26877.1392,
+    "apsis_period_s": 0.0,
+    "node_period_s": 20638670.400000002,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (NEP097, ref. 24)",
+    "laplace_pole_ra": 299.7,
+    "laplace_pole_dec": 42.7
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 881,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "neptune_despina",
+   "name": "Despina",
+   "kind": "moon_minor",
+   "parent": "neptune",
+   "description": "Satélite de Neptune (elementos medios JPL).",
+   "jpl_code": "805",
+   "physical": {
+    "mean_radius": {
+     "value": 74000.0,
+     "unit": "m",
+     "quality": "measured",
+     "source": "JPL SSD Planetary Satellite Physical Parameters"
+    },
+    "mass": {
+     "value": 1.7489474551638377e+18,
+     "unit": "kg",
+     "quality": "measured",
+     "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+    },
+    "sidereal_rotation_period": {
+     "value": 28914.2784,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2451545.0,
+    "a_m": 52500000.0,
+    "e": 0.0,
+    "w_deg": 0.0,
+    "M_deg": 125.1,
+    "i_deg": 0.0,
+    "node_deg": 0.0,
+    "period_s": 28914.2784,
+    "apsis_period_s": 0.0,
+    "node_period_s": 0.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (NEP097, ref. 24)",
+    "laplace_pole_ra": 299.7,
+    "laplace_pole_dec": 42.7
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 882,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "neptune_galatea",
+   "name": "Galatea",
+   "kind": "moon_minor",
+   "parent": "neptune",
+   "description": "Satélite de Neptune (elementos medios JPL).",
+   "jpl_code": "806",
+   "physical": {
+    "mean_radius": {
+     "value": 79000.0,
+     "unit": "m",
+     "quality": "measured",
+     "source": "JPL SSD Planetary Satellite Physical Parameters"
+    },
+    "mass": {
+     "value": 2.8452421976836526e+18,
+     "unit": "kg",
+     "quality": "measured",
+     "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+    },
+    "sidereal_rotation_period": {
+     "value": 37043.4816,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2451545.0,
+    "a_m": 62000000.0,
+    "e": 0.0,
+    "w_deg": 0.0,
+    "M_deg": 86.7,
+    "i_deg": 0.0,
+    "node_deg": 0.0,
+    "period_s": 37043.4816,
+    "apsis_period_s": 0.0,
+    "node_period_s": 0.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (NEP097, ref. 24)",
+    "laplace_pole_ra": 299.8,
+    "laplace_pole_dec": 43.1
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 883,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "neptune_larissa",
+   "name": "Larissa",
+   "kind": "moon_minor",
+   "parent": "neptune",
+   "description": "Satélite de Neptune (elementos medios JPL).",
+   "jpl_code": "807",
+   "physical": {
+    "mean_radius": {
+     "value": 96000.0,
+     "unit": "m",
+     "quality": "measured",
+     "source": "JPL SSD Planetary Satellite Physical Parameters"
+    },
+    "mass": {
+     "value": 3.818228128792533e+18,
+     "unit": "kg",
+     "quality": "measured",
+     "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+    },
+    "sidereal_rotation_period": {
+     "value": 47951.0496,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2451545.0,
+    "a_m": 73500000.0,
+    "e": 0.001,
+    "w_deg": 247.3,
+    "M_deg": 165.5,
+    "i_deg": 0.2,
+    "node_deg": 312.0,
+    "period_s": 47951.0496,
+    "apsis_period_s": 39667903.199999996,
+    "node_period_s": 79335806.39999999,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (NEP097, ref. 24)",
+    "laplace_pole_ra": 299.8,
+    "laplace_pole_dec": 43.1
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 884,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "neptune_proteus",
+   "name": "Proteus",
+   "kind": "moon_minor",
+   "parent": "neptune",
+   "description": "Satélite de Neptune (elementos medios JPL).",
+   "jpl_code": "808",
+   "physical": {
+    "mean_radius": {
+     "value": 208000.0,
+     "unit": "m",
+     "quality": "measured",
+     "source": "JPL SSD Planetary Satellite Physical Parameters"
+    },
+    "mass": {
+     "value": 3.870698050731912e+19,
+     "unit": "kg",
+     "quality": "measured",
+     "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+    },
+    "sidereal_rotation_period": {
+     "value": 96968.01599999999,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2451545.0,
+    "a_m": 117600000.0,
+    "e": 0.0,
+    "w_deg": 0.0,
+    "M_deg": 276.8,
+    "i_deg": 0.0,
+    "node_deg": 0.0,
+    "period_s": 96968.01599999999,
+    "apsis_period_s": 0.0,
+    "node_period_s": 0.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (NEP097, ref. 24)",
+    "laplace_pole_ra": 299.8,
+    "laplace_pole_dec": 42.6
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 885,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "neptune_hippocamp",
+   "name": "Hippocamp",
+   "kind": "moon_minor",
+   "parent": "neptune",
+   "description": "Satélite de Neptune (elementos medios JPL).",
+   "jpl_code": "814",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Neptune"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 82113.696,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2451545.0,
+    "a_m": 105300000.0,
+    "e": 0.001,
+    "w_deg": 346.4,
+    "M_deg": 286.5,
+    "i_deg": 0.3,
+    "node_deg": 0.5,
+    "period_s": 82113.696,
+    "apsis_period_s": 275371617.6,
+    "node_period_s": 20883620491.199997,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (NEP097, ref. 24)",
+    "laplace_pole_ra": 299.8,
+    "laplace_pole_dec": 43.0
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 891,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "neptune_nereid",
+   "name": "Nereid",
+   "kind": "moon_minor",
+   "parent": "neptune",
+   "description": "Satélite de Neptune (elementos medios JPL).",
+   "jpl_code": "802",
+   "physical": {
+    "mean_radius": {
+     "value": 170000.0,
+     "unit": "m",
+     "quality": "measured",
+     "source": "JPL SSD Planetary Satellite Physical Parameters"
+    },
+    "mass": {
+     "value": 3.0869289414173303e+19,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 31115494.5696,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 5513900000.0,
+    "e": 0.751,
+    "w_deg": 296.8,
+    "M_deg": 318.5,
+    "i_deg": 5.1,
+    "node_deg": 319.5,
+    "period_s": 31115494.5696,
+    "apsis_period_s": 252158888440.8,
+    "node_period_s": 297472477838.4,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (NEP105, ref. 44)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 879,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "neptune_halimede",
+   "name": "Halimede",
+   "kind": "moon_minor",
+   "parent": "neptune",
+   "description": "Satélite de Neptune (elementos medios JPL).",
+   "jpl_code": "809",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Neptune"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 162345600.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 16590500000.0,
+    "e": 0.521,
+    "w_deg": 157.9,
+    "M_deg": 135.8,
+    "i_deg": 119.6,
+    "node_deg": 198.5,
+    "period_s": 162345600.0,
+    "apsis_period_s": 170253252000.0,
+    "node_period_s": 162710985600.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (NEP104, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 886,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "neptune_psamathe",
+   "name": "Psamathe",
+   "kind": "moon_minor",
+   "parent": "neptune",
+   "description": "Satélite de Neptune (elementos medios JPL).",
+   "jpl_code": "810",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Neptune"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 790473600.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 47646600000.0,
+    "e": 0.413,
+    "w_deg": 148.2,
+    "M_deg": 183.2,
+    "i_deg": 127.8,
+    "node_deg": 302.9,
+    "period_s": 790473600.0,
+    "apsis_period_s": 46831478400.0,
+    "node_period_s": 42066280800.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (NEP104, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 887,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "neptune_sao",
+   "name": "Sao",
+   "kind": "moon_minor",
+   "parent": "neptune",
+   "description": "Satélite de Neptune (elementos medios JPL).",
+   "jpl_code": "811",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Neptune"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 252201600.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 22239900000.0,
+    "e": 0.296,
+    "w_deg": 93.5,
+    "M_deg": 178.5,
+    "i_deg": 50.2,
+    "node_deg": 41.8,
+    "period_s": 252201600.0,
+    "apsis_period_s": 0.0,
+    "node_period_s": 140557550400.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (NEP104, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 888,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "neptune_laomedeia",
+   "name": "Laomedeia",
+   "kind": "moon_minor",
+   "parent": "neptune",
+   "description": "Satélite de Neptune (elementos medios JPL).",
+   "jpl_code": "812",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Neptune"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 273715200.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 23499900000.0,
+    "e": 0.419,
+    "w_deg": 146.2,
+    "M_deg": 248.1,
+    "i_deg": 36.9,
+    "node_deg": 57.6,
+    "period_s": 273715200.0,
+    "apsis_period_s": 71162388000.0,
+    "node_period_s": 99532670400.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (NEP104, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 889,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "neptune_neso",
+   "name": "Neso",
+   "kind": "moon_minor",
+   "parent": "neptune",
+   "description": "Satélite de Neptune (elementos medios JPL).",
+   "jpl_code": "813",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Neptune"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 847152000.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 49897800000.0,
+    "e": 0.455,
+    "w_deg": 89.8,
+    "M_deg": 13.8,
+    "i_deg": 128.4,
+    "node_deg": 55.4,
+    "period_s": 847152000.0,
+    "apsis_period_s": 0.0,
+    "node_period_s": 35218281600.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (NEP104, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 890,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "neptune_s2002_n5",
+   "name": "S2002_N5",
+   "kind": "moon_minor",
+   "parent": "neptune",
+   "description": "Satélite de Neptune (elementos medios JPL).",
+   "jpl_code": "85051",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Neptune"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 272246400.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 23414700000.0,
+    "e": 0.433,
+    "w_deg": 59.1,
+    "M_deg": 303.2,
+    "i_deg": 46.3,
+    "node_deg": 258.3,
+    "period_s": 272246400.0,
+    "apsis_period_s": 90538754400.0,
+    "node_period_s": 98491269600.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (NEP104, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 85128,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "neptune_s2021_n1",
+   "name": "S2021_N1",
+   "kind": "moon_minor",
+   "parent": "neptune",
+   "description": "Satélite de Neptune (elementos medios JPL).",
+   "jpl_code": "85052",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Neptune"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 867715200.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 50700200000.0,
+    "e": 0.503,
+    "w_deg": 90.4,
+    "M_deg": 237.1,
+    "i_deg": 135.2,
+    "node_deg": 258.9,
+    "period_s": 867715200.0,
+    "apsis_period_s": 0.0,
+    "node_period_s": 29159222400.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (NEP104, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 85129,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  }
+ ]
+}

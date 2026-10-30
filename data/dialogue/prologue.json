@@ -1,0 +1,290 @@
+{
+ "note": "Líneas del prólogo (ADR-043). 'text' vacío = sin subtítulo (aún no hay transcripción de esos audios); 'speaker' se muestra si no está vacío. Los audios que no existen (16, 24-32) se omiten sin error.",
+ "lines": {
+  "p01": {
+   "audio": "res://assets/audio/prologue/01.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Inicio de la recuperación en la cápsula",
+   "kind": "story"
+  },
+  "p02": {
+   "audio": "res://assets/audio/prologue/02.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Descongelación completada: la cápsula se abre",
+   "kind": "story"
+  },
+  "p03": {
+   "audio": "res://assets/audio/prologue/03.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Primera consulta del terminal médico (1/2)",
+   "kind": "story"
+  },
+  "p04": {
+   "audio": "res://assets/audio/prologue/04.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Primera consulta del terminal médico (2/2)",
+   "kind": "story"
+  },
+  "p05": {
+   "audio": "res://assets/audio/prologue/05.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Primera vez que puedes moverte por el pasillo de recuperación",
+   "kind": "story"
+  },
+  "p06": {
+   "audio": "res://assets/audio/prologue/06.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Puerta sin energía",
+   "kind": "error"
+  },
+  "p07": {
+   "audio": "res://assets/audio/prologue/07.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Puerta restringida",
+   "kind": "error"
+  },
+  "p08": {
+   "audio": "res://assets/audio/prologue/08.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Terminal dañado",
+   "kind": "error"
+  },
+  "p09": {
+   "audio": "res://assets/audio/prologue/09.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Pasillo señalizado hacia la sala de orientación",
+   "kind": "story"
+  },
+  "p10": {
+   "audio": "res://assets/audio/prologue/10.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Entrada en la sala de orientación",
+   "kind": "story"
+  },
+  "p11": {
+   "audio": "res://assets/audio/prologue/11.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "La pantalla se activa (grabación corporativa pendiente)",
+   "kind": "story"
+  },
+  "p12": {
+   "audio": "res://assets/audio/prologue/12.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Presentación del mensaje de Magnus",
+   "kind": "story"
+  },
+  "p13": {
+   "audio": "res://assets/audio/prologue/13.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Fin real de la grabación de Magnus",
+   "kind": "story"
+  },
+  "p14": {
+   "audio": "res://assets/audio/prologue/14.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Consola de operaciones (sistemas parciales, NEXUS incompleto)",
+   "kind": "story"
+  },
+  "p15": {
+   "audio": "res://assets/audio/prologue/15.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Arranque manual de la energía auxiliar",
+   "kind": "story"
+  },
+  "p16": {
+   "audio": "res://assets/audio/prologue/16.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Energía restablecida correctamente",
+   "kind": "story"
+  },
+  "p17": {
+   "audio": "res://assets/audio/prologue/17.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Nuevo objetivo: el hangar",
+   "kind": "story"
+  },
+  "p18": {
+   "audio": "res://assets/audio/prologue/18.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Primera entrada en el hangar",
+   "kind": "story"
+  },
+  "p19": {
+   "audio": "res://assets/audio/prologue/19.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Tras el diagnóstico de la nave",
+   "kind": "story"
+  },
+  "p20": {
+   "audio": "res://assets/audio/prologue/20.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Traje equipado y conectado",
+   "kind": "story"
+  },
+  "p21": {
+   "audio": "res://assets/audio/prologue/21.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Inicio de la despresurización",
+   "kind": "story"
+  },
+  "p22": {
+   "audio": "res://assets/audio/prologue/22.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Exterior seguro: la escotilla puede abrirse",
+   "kind": "story"
+  },
+  "p23": {
+   "audio": "res://assets/audio/prologue/23.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Generador",
+   "kind": "optional"
+  },
+  "p24": {
+   "audio": "res://assets/audio/prologue/24.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Enfermería",
+   "kind": "optional"
+  },
+  "p25": {
+   "audio": "res://assets/audio/prologue/25.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Sistema de cultivos",
+   "kind": "optional"
+  },
+  "p26": {
+   "audio": "res://assets/audio/prologue/26.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Consola de comunicaciones",
+   "kind": "optional"
+  },
+  "p27": {
+   "audio": "res://assets/audio/prologue/27.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Observatorio",
+   "kind": "optional"
+  },
+  "p28": {
+   "audio": "res://assets/audio/prologue/28.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Laboratorio experimental",
+   "kind": "optional"
+  },
+  "p29": {
+   "audio": "res://assets/audio/prologue/29.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Archivo digital",
+   "kind": "optional"
+  },
+  "p30": {
+   "audio": "res://assets/audio/prologue/30.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Resto de cápsulas criogénicas",
+   "kind": "optional"
+  },
+  "p31": {
+   "audio": "res://assets/audio/prologue/31.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Sector sin energía",
+   "kind": "optional"
+  },
+  "p32": {
+   "audio": "res://assets/audio/prologue/32.mp3",
+   "speaker": "",
+   "text": "",
+   "event": "Terminal NEXUS",
+   "kind": "optional"
+  },
+  "magnus": {
+   "audio": "res://assets/audio/prologue/magnus.mp3",
+   "speaker": "Magnus Blackwell",
+   "subtitles": "res://data/dialogue/magnus.json",
+   "kind": "story",
+   "skippable": true,
+   "event": "Mensaje grabado de Magnus Blackwell",
+   "duck_music": 0.0,
+   "duck_ambient": 0.12,
+   "volume_db": 4.0
+  },
+  "nexus_mercury": {
+   "audio": "res://assets/audio/nexus/mercury.mp3",
+   "speaker": "Registro de MacSpaces",
+   "text": "",
+   "event": "Recoger el componente del NEXUS de Mercurio (audio asignado al azar; reordenar aquí)",
+   "kind": "story",
+   "skippable": true,
+   "duck_music": 0.2,
+   "duck_ambient": 0.3
+  },
+  "nexus_venus": {
+   "audio": "res://assets/audio/nexus/venus.mp3",
+   "speaker": "Registro de MacSpaces",
+   "text": "",
+   "event": "Recoger el componente del NEXUS de Venus (audio asignado al azar; reordenar aquí)",
+   "kind": "story",
+   "skippable": true,
+   "duck_music": 0.2,
+   "duck_ambient": 0.3
+  },
+  "nexus_mars": {
+   "audio": "res://assets/audio/nexus/mars.mp3",
+   "speaker": "Registro de MacSpaces",
+   "text": "",
+   "event": "Recoger el componente del NEXUS de Marte (audio asignado al azar; reordenar aquí)",
+   "kind": "story",
+   "skippable": true,
+   "duck_music": 0.2,
+   "duck_ambient": 0.3
+  },
+  "nexus_europa": {
+   "audio": "res://assets/audio/nexus/europa.mp3",
+   "speaker": "Registro de MacSpaces",
+   "text": "",
+   "event": "Recoger el componente del NEXUS de Europa (audio asignado al azar; reordenar aquí)",
+   "kind": "story",
+   "skippable": true,
+   "duck_music": 0.2,
+   "duck_ambient": 0.3
+  },
+  "nexus_titan": {
+   "audio": "res://assets/audio/nexus/titan.mp3",
+   "speaker": "Registro de MacSpaces",
+   "text": "",
+   "event": "Recoger el componente del NEXUS de Titán (audio asignado al azar; reordenar aquí)",
+   "kind": "story",
+   "skippable": true,
+   "duck_music": 0.2,
+   "duck_ambient": 0.3
+  }
+ }
+}

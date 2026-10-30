@@ -1,0 +1,319 @@
+{
+ "id": "saturn",
+ "name": "Saturno",
+ "kind": "planet",
+ "parent": "sun",
+ "description": "Gigante de H2/He con el sistema de anillos más extenso (radios 67 000-140 700 km, < 1 km de espesor). Vientos ecuatoriales de hasta ~400-500 m/s y el hexágono polar norte (lados de ~14 500 km, 78° N).",
+ "physical": {
+  "mean_radius": {
+   "value": 58232000.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (saturn: volumetric mean radius)"
+  },
+  "mass": {
+   "value": 5.6831428014922916e+26,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (saturn: GM/G)"
+  },
+  "gm": {
+   "value": 3.7931e+16,
+   "unit": "m3/s2",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (saturn)"
+  },
+  "sidereal_rotation_period": {
+   "value": 38361.6,
+   "unit": "s",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (negativo = retrógrado)"
+  },
+  "solar_day": {
+   "value": 38361.6,
+   "unit": "s",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (length of day)"
+  },
+  "axial_tilt": {
+   "value": 26.73,
+   "unit": "deg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (obliquity to orbit)"
+  },
+  "geometric_albedo": {
+   "value": 0.499,
+   "unit": "",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  },
+  "equatorial_radius": {
+   "value": 60268000.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (1 bar)"
+  },
+  "polar_radius": {
+   "value": 54364000.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  }
+ },
+ "rotation": {
+  "model": "iau",
+  "pole_ra": 40.589,
+  "pole_dec": 83.537,
+  "pole_ra_rate": -0.036,
+  "pole_dec_rate": -0.004,
+  "w0": 38.9,
+  "wdot": 810.7939024,
+  "quality": "approximate",
+  "source": "IAU WGCCRE 2015 (Archinal et al. 2018); polo contrastado con NASA NSSDCA Planetary Fact Sheet"
+ },
+ "orbit": {
+  "model": "planet",
+  "frame": "ecliptic_j2000",
+  "elements": [
+   9.53667594,
+   0.05386179,
+   2.48599187,
+   49.95424423,
+   92.59887831,
+   113.66242448
+  ],
+  "rates_per_century": [
+   -0.0012506,
+   -0.00050991,
+   0.00193609,
+   1222.49362201,
+   -0.41897216,
+   -0.28867794
+  ],
+  "element_order": [
+   "a_au",
+   "e",
+   "i_deg",
+   "L_deg",
+   "varpi_deg",
+   "node_deg"
+  ],
+  "quality": "measured",
+  "source": "JPL SSD Approximate Positions of the Planets, Tabla 1 (Standish & Williams 1992)",
+  "valid": "1800-2050"
+ },
+ "atmosphere": {
+  "present": true,
+  "kind": "gas_giant",
+  "reference_level": "1 bar",
+  "pressure_1bar": {
+   "value": 100000.0,
+   "unit": "Pa",
+   "quality": "measured",
+   "source": "Definición del nivel de referencia (1 bar)"
+  },
+  "temperature_1bar": {
+   "value": 134.0,
+   "unit": "K",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Saturn: temperatura a 1 bar)"
+  },
+  "temperature_0p1bar": {
+   "value": 84.0,
+   "unit": "K",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Saturn: temperatura a 0,1 bar)"
+  },
+  "density_1bar": {
+   "value": 0.19,
+   "unit": "kg/m3",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Saturn: densidad a 1 bar)"
+  },
+  "scale_height": {
+   "value": 59500.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Saturn: altura de escala)"
+  },
+  "mean_molecular_weight": {
+   "value": 2.07,
+   "unit": "g/mol",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  },
+  "specific_heat_cp": {
+   "value": 14100.0,
+   "unit": "J/(kg K)",
+   "quality": "approximate",
+   "source": "Mezcla H2/He ideal (cp ≈ 3,5 R/μ)"
+  },
+  "composition": "H2 96,3 %, He 3,25 %; CH4 4500 ppm, NH3 125 ppm, HD 110 ppm, C2H6 7 ppm (NSSDC)",
+  "clouds": [
+   {
+    "name": "Nubes de amoníaco (NH3)",
+    "p_top_bar": 0.8,
+    "p_base_bar": 1.6,
+    "color": [
+     0.95,
+     0.9,
+     0.75
+    ],
+    "opacity": 0.8,
+    "quality": "approximate",
+    "note": "Modelo de condensación (más profundas que en Júpiter)"
+   },
+   {
+    "name": "Hidrosulfuro de amonio (NH4SH)",
+    "p_top_bar": 3.0,
+    "p_base_bar": 6.0,
+    "color": [
+     0.8,
+     0.65,
+     0.42
+    ],
+    "opacity": 0.9,
+    "quality": "approximate",
+    "note": "Modelo de condensación"
+   },
+   {
+    "name": "Nubes de agua (H2O)",
+    "p_top_bar": 10.0,
+    "p_base_bar": 20.0,
+    "color": [
+     0.55,
+     0.58,
+     0.62
+    ],
+    "opacity": 0.95,
+    "quality": "approximate",
+    "note": "Modelo de condensación"
+   }
+  ],
+  "winds": {
+   "max_mps": 400.0,
+   "high_lat_mps": 150.0,
+   "note": "Hasta 400 m/s (<30°), 150 m/s (>30°) (NSSDC)"
+  },
+  "wind_model": {
+   "type": "broad",
+   "max_mps": 400.0,
+   "width_deg": 35.0
+  },
+  "lightning": true,
+  "sky_above_clouds": [
+   0.45,
+   0.55,
+   0.72
+  ],
+  "deep_color": [
+   0.4,
+   0.28,
+   0.15
+  ],
+  "note": "Sin superficie sólida: la presión y la temperatura crecen sin límite al descender. "
+ },
+ "surface": {
+  "type": "none",
+  "terrain_note": "Gigante gaseoso: no hay suelo."
+ },
+ "render": {
+  "kind": "gas",
+  "color": [
+   0.92,
+   0.84,
+   0.62
+  ],
+  "color2": [
+   0.8,
+   0.68,
+   0.46
+  ],
+  "band_count": 16,
+  "band_contrast": 0.45,
+  "flattening": 0.09796,
+  "turbulence": 0.3,
+  "hexagon": {
+   "lat": 78.0,
+   "side_km": 14500.0,
+   "wind_mps": 90.0,
+   "color": [
+    0.45,
+    0.55,
+    0.6
+   ],
+   "quality": "measured",
+   "source": "Cassini (Godfrey 1988, Sánchez-Lavega 2014)"
+  },
+  "rings": [
+   {
+    "name": "Anillo D",
+    "inner_m": 67000000.0,
+    "outer_m": 74500000.0,
+    "opacity": 0.03,
+    "color": [
+     0.55,
+     0.5,
+     0.45
+    ]
+   },
+   {
+    "name": "Anillo C",
+    "inner_m": 74500000.0,
+    "outer_m": 92000000.0,
+    "opacity": 0.12,
+    "color": [
+     0.62,
+     0.56,
+     0.48
+    ]
+   },
+   {
+    "name": "Anillo B",
+    "inner_m": 92000000.0,
+    "outer_m": 117500000.0,
+    "opacity": 0.85,
+    "color": [
+     0.86,
+     0.8,
+     0.66
+    ]
+   },
+   {
+    "name": "División de Cassini",
+    "inner_m": 117500000.0,
+    "outer_m": 122050000.0,
+    "opacity": 0.05,
+    "color": [
+     0.4,
+     0.38,
+     0.35
+    ]
+   },
+   {
+    "name": "Anillo A",
+    "inner_m": 122050000.0,
+    "outer_m": 136800000.0,
+    "opacity": 0.55,
+    "color": [
+     0.8,
+     0.75,
+     0.64
+    ]
+   },
+   {
+    "name": "Anillo F",
+    "inner_m": 140180000.0,
+    "outer_m": 140700000.0,
+    "opacity": 0.3,
+    "color": [
+     0.85,
+     0.82,
+     0.75
+    ]
+   }
+  ],
+  "rings_source": "USGS Planetary Nomenclature / tablas Voyager-Cassini (los límites varían ±1 % según la fuente)"
+ },
+ "schema_version": 1
+}

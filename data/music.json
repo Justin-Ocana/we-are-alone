@@ -1,0 +1,17 @@
+{
+ "note": "Banda sonora (ronda 14). Cada pista se asigna a uno o más contextos (menu, explore, deep, party); GameAudio las va rotando sin repetir la anterior, con pausas de silencio entre pistas según Opciones > Audio. gain_db iguala el volumen percibido. Licencias en assets/audio/CREDITOS.md.",
+ "tracks": [
+  {"id": "despertar", "file": "res://assets/audio/music/despertar.wav", "title": "Despertar", "author": "propia (tools/gen_audio.py)", "license": "CC0", "contexts": ["menu"], "gain_db": 0.0},
+  {"id": "orbita", "file": "res://assets/audio/music/orbita.wav", "title": "Órbita", "author": "propia (tools/gen_audio.py)", "license": "CC0", "contexts": ["explore"], "gain_db": 0.0},
+  {"id": "profundidades", "file": "res://assets/audio/music/profundidades.wav", "title": "Profundidades", "author": "propia (tools/gen_audio.py)", "license": "CC0", "contexts": ["deep"], "gain_db": 0.0},
+  {"id": "fiesta", "file": "res://assets/audio/music/fiesta.wav", "title": "Fiesta", "author": "propia (tools/gen_audio.py)", "license": "CC0", "contexts": ["party"], "gain_db": 0.0},
+  {"id": "title", "file": "res://assets/audio/music/srg774_title.mp3", "title": "Title", "author": "SRG774", "license": "CC0", "contexts": ["menu"], "gain_db": 18.0},
+  {"id": "sector", "file": "res://assets/audio/music/srg774_sector.mp3", "title": "Sector", "author": "SRG774", "license": "CC0", "contexts": ["explore"], "gain_db": 18.0},
+  {"id": "airy", "file": "res://assets/audio/music/srg774_airy.mp3", "title": "Airy", "author": "SRG774", "license": "CC0", "contexts": ["explore"], "gain_db": 18.0},
+  {"id": "pulse", "file": "res://assets/audio/music/srg774_pulse.mp3", "title": "Pulse", "author": "SRG774", "license": "CC0", "contexts": ["explore", "deep"], "gain_db": 16.0},
+  {"id": "transmission", "file": "res://assets/audio/music/srg774_transmission.mp3", "title": "Transmission", "author": "SRG774", "license": "CC0", "contexts": ["explore"], "gain_db": 12.0},
+  {"id": "urgent", "file": "res://assets/audio/music/srg774_urgent.mp3", "title": "Urgent", "author": "SRG774", "license": "CC0", "contexts": ["deep"], "gain_db": 18.0},
+  {"id": "outer_space", "file": "res://assets/audio/music/wipics_outer_space.mp3", "title": "Outer Space", "author": "wipics", "license": "CC0", "contexts": ["explore"], "gain_db": -5.0},
+  {"id": "starfield_romance", "file": "res://assets/audio/music/yoiyami_starfield_romance.wav", "title": "Starfield Romance", "author": "Yoiyami", "license": "CC0", "contexts": ["menu", "explore"], "gain_db": 0.0}
+ ]
+}

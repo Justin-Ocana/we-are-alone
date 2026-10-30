@@ -1,0 +1,84 @@
+{
+ "id": "sun",
+ "name": "Sol",
+ "kind": "star",
+ "parent": "",
+ "description": "Estrella G2V. Fotosfera a 5772 K; la nave no sobrevive a la proximidad de la fotosfera.",
+ "physical": {
+  "mean_radius": {
+   "value": 695700000.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Sun: volumetric mean radius)"
+  },
+  "mass": {
+   "value": 1.9884e+30,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Sun)"
+  },
+  "gm": {
+   "value": 1.32712e+20,
+   "unit": "m3/s2",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Sun)"
+  },
+  "sidereal_rotation_period": {
+   "value": 2164320.0,
+   "unit": "s",
+   "quality": "approximate",
+   "source": "NASA NSSDCA Planetary Fact Sheet (14,37°/día en el ecuador)"
+  },
+  "axial_tilt": {
+   "value": 7.25,
+   "unit": "deg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (oblicuidad respecto a la eclíptica)"
+  },
+  "luminosity": {
+   "value": 3.828e+26,
+   "unit": "W",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Sun: 382.8e24 J/s)"
+  },
+  "effective_temperature": {
+   "value": 5772.0,
+   "unit": "K",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Sun)"
+  }
+ },
+ "rotation": {
+  "model": "iau",
+  "pole_ra": 286.13,
+  "pole_dec": 63.87,
+  "pole_ra_rate": 0.0,
+  "pole_dec_rate": 0.0,
+  "w0": 84.176,
+  "wdot": 14.1844,
+  "quality": "approximate",
+  "source": "IAU WGCCRE 2015 (Archinal et al. 2018); polo contrastado con NASA NSSDCA Planetary Fact Sheet"
+ },
+ "orbit": {
+  "model": "fixed",
+  "note": "Origen del marco heliocéntrico (no se modela el baricentro)."
+ },
+ "atmosphere": {
+  "present": false,
+  "note": "Cromosfera y corona: sólo visuales."
+ },
+ "surface": {
+  "type": "plasma",
+  "terrain_note": "Sin superficie: plasma."
+ },
+ "render": {
+  "kind": "star",
+  "color": [
+   1.0,
+   0.96,
+   0.88
+  ],
+  "corona": true
+ },
+ "schema_version": 1
+}

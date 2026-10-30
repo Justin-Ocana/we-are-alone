@@ -1,0 +1,86 @@
+{
+ "id": "mimas",
+ "name": "Mimas",
+ "kind": "moon",
+ "parent": "saturn",
+ "description": "Pequeña luna helada dominada por el cráter Herschel (130 km).",
+ "jpl_code": "601",
+ "physical": {
+  "mean_radius": {
+   "value": 198200.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters"
+  },
+  "mass": {
+   "value": 3.750940173501342e+19,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+  },
+  "sidereal_rotation_period": {
+   "value": 81425.2608,
+   "unit": "s",
+   "quality": "approximate",
+   "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+  }
+ },
+ "rotation": {
+  "model": "synchronous",
+  "quality": "approximate",
+  "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+ },
+ "orbit": {
+  "model": "satellite",
+  "frame": "laplace",
+  "epoch_jd": 2451545.0,
+  "a_m": 186000000.0,
+  "e": 0.02,
+  "w_deg": 160.4,
+  "M_deg": 275.3,
+  "i_deg": 1.6,
+  "node_deg": 66.2,
+  "period_s": 81425.2608,
+  "apsis_period_s": 15557896.8,
+  "node_period_s": 31115793.6,
+  "quality": "measured",
+  "source": "JPL SSD Planetary Satellite Mean Elements (SAT441, ref. 36)",
+  "laplace_pole_ra": 40.6,
+  "laplace_pole_dec": 83.5
+ },
+ "surface": {
+  "type": "solid",
+  "terrain_profile": "icy_cratered",
+  "seed": 7517475,
+  "terrain_note": "Topografía PROCEDURAL inspirada en Mimas; no son datos reales.",
+  "colors_override": {
+   "base": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "alt": [
+    0.62,
+    0.62,
+    0.63
+   ]
+  }
+ },
+ "render": {
+  "kind": "rocky",
+  "color": [
+   0.8,
+   0.8,
+   0.8
+  ],
+  "color2": [
+   0.62,
+   0.62,
+   0.63
+  ]
+ },
+ "atmosphere": {
+  "present": false
+ },
+ "schema_version": 1
+}

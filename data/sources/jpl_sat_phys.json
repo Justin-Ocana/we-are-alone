@@ -1,0 +1,375 @@
+{
+ "source": "JPL Solar System Dynamics — Planetary Satellite Physical Parameters",
+ "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+ "retrieved": "2026-10-11",
+ "satellites": [
+  {
+   "planet": "Earth",
+   "name": "Moon",
+   "code": "301",
+   "gm_km3s2": "4902.800",
+   "radius_km": "1737.4",
+   "density_gcm3": "3.344"
+  },
+  {
+   "planet": "Mars",
+   "name": "Phobos",
+   "code": "401",
+   "gm_km3s2": "0.0007087",
+   "radius_km": "11.08",
+   "density_gcm3": "1.872"
+  },
+  {
+   "planet": "Mars",
+   "name": "Deimos",
+   "code": "402",
+   "gm_km3s2": "0.0000962",
+   "radius_km": "6.2",
+   "density_gcm3": "1.471"
+  },
+  {
+   "planet": "Jupiter",
+   "name": "Io",
+   "code": "501",
+   "gm_km3s2": "5959.91547",
+   "radius_km": "1821.49",
+   "density_gcm3": "3.5276"
+  },
+  {
+   "planet": "Jupiter",
+   "name": "Europa",
+   "code": "502",
+   "gm_km3s2": "3202.71210",
+   "radius_km": "1560.80",
+   "density_gcm3": "3.0130"
+  },
+  {
+   "planet": "Jupiter",
+   "name": "Ganymede",
+   "code": "503",
+   "gm_km3s2": "9887.83275",
+   "radius_km": "2631.20",
+   "density_gcm3": "1.9416"
+  },
+  {
+   "planet": "Jupiter",
+   "name": "Callisto",
+   "code": "504",
+   "gm_km3s2": "7179.28340",
+   "radius_km": "2410.30",
+   "density_gcm3": "1.8340"
+  },
+  {
+   "planet": "Jupiter",
+   "name": "Amalthea",
+   "code": "505",
+   "gm_km3s2": "0.16456",
+   "radius_km": "83.50",
+   "density_gcm3": "1.0111"
+  },
+  {
+   "planet": "Jupiter",
+   "name": "Thebe",
+   "code": "514",
+   "gm_km3s2": "0.03015",
+   "radius_km": "49.30",
+   "density_gcm3": "0.9000"
+  },
+  {
+   "planet": "Jupiter",
+   "name": "Adrastea",
+   "code": "515",
+   "gm_km3s2": "0.00014",
+   "radius_km": "8.20",
+   "density_gcm3": "0.9018"
+  },
+  {
+   "planet": "Jupiter",
+   "name": "Metis",
+   "code": "516",
+   "gm_km3s2": "0.00250",
+   "radius_km": "21.50",
+   "density_gcm3": "0.9002"
+  },
+  {
+   "planet": "Jupiter",
+   "name": "Himalia",
+   "code": "506",
+   "gm_km3s2": "0.15155",
+   "radius_km": "85.00",
+   "density_gcm3": "0.8827"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Mimas",
+   "code": "601",
+   "gm_km3s2": "2.50349",
+   "radius_km": "198.20",
+   "density_gcm3": "1.1501"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Enceladus",
+   "code": "602",
+   "gm_km3s2": "7.21037",
+   "radius_km": "252.10",
+   "density_gcm3": "1.6097"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Tethys",
+   "code": "603",
+   "gm_km3s2": "41.21353",
+   "radius_km": "531.10",
+   "density_gcm3": "0.9840"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Dione",
+   "code": "604",
+   "gm_km3s2": "73.11607",
+   "radius_km": "561.40",
+   "density_gcm3": "1.4781"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Rhea",
+   "code": "605",
+   "gm_km3s2": "153.94175",
+   "radius_km": "763.50",
+   "density_gcm3": "1.2372"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Titan",
+   "code": "606",
+   "gm_km3s2": "8978.13710",
+   "radius_km": "2574.76",
+   "density_gcm3": "1.8814"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Hyperion",
+   "code": "607",
+   "gm_km3s2": "0.37049",
+   "radius_km": "135.00",
+   "density_gcm3": "0.5386"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Iapetus",
+   "code": "608",
+   "gm_km3s2": "120.51511",
+   "radius_km": "734.30",
+   "density_gcm3": "1.0887"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Phoebe",
+   "code": "609",
+   "gm_km3s2": "0.55479",
+   "radius_km": "106.50",
+   "density_gcm3": "1.6428"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Janus",
+   "code": "610",
+   "gm_km3s2": "0.12662",
+   "radius_km": "89.2",
+   "density_gcm3": "0.6381"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Epimetheus",
+   "code": "611",
+   "gm_km3s2": "0.03514",
+   "radius_km": "58.2",
+   "density_gcm3": "0.6375"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Helene",
+   "code": "612",
+   "gm_km3s2": "0.00048",
+   "radius_km": "18.00",
+   "density_gcm3": "0.2918"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Atlas",
+   "code": "615",
+   "gm_km3s2": "0.00037",
+   "radius_km": "15.1",
+   "density_gcm3": "0.3850"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Prometheus",
+   "code": "616",
+   "gm_km3s2": "0.01071",
+   "radius_km": "43.1",
+   "density_gcm3": "0.4784"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Pandora",
+   "code": "617",
+   "gm_km3s2": "0.00926",
+   "radius_km": "40.6",
+   "density_gcm3": "0.4948"
+  },
+  {
+   "planet": "Saturn",
+   "name": "Pan",
+   "code": "618",
+   "gm_km3s2": "0.00028",
+   "radius_km": "14.0",
+   "density_gcm3": "0.3650"
+  },
+  {
+   "planet": "Uranus",
+   "name": "Ariel",
+   "code": "701",
+   "gm_km3s2": "83.5",
+   "radius_km": "578.9",
+   "density_gcm3": "1.539"
+  },
+  {
+   "planet": "Uranus",
+   "name": "Umbriel",
+   "code": "702",
+   "gm_km3s2": "85.1",
+   "radius_km": "584.7",
+   "density_gcm3": "1.523"
+  },
+  {
+   "planet": "Uranus",
+   "name": "Titania",
+   "code": "703",
+   "gm_km3s2": "226.9",
+   "radius_km": "788.9",
+   "density_gcm3": "1.653"
+  },
+  {
+   "planet": "Uranus",
+   "name": "Oberon",
+   "code": "704",
+   "gm_km3s2": "205.3",
+   "radius_km": "761.4",
+   "density_gcm3": "1.664"
+  },
+  {
+   "planet": "Uranus",
+   "name": "Miranda",
+   "code": "705",
+   "gm_km3s2": "4.3",
+   "radius_km": "235.8",
+   "density_gcm3": "1.178"
+  },
+  {
+   "planet": "Neptune",
+   "name": "Triton",
+   "code": "801",
+   "gm_km3s2": "1428.49546",
+   "radius_km": "1352.60",
+   "density_gcm3": "2.0649"
+  },
+  {
+   "planet": "Neptune",
+   "name": "Nereid",
+   "code": "802",
+   "gm_km3s2": "0.00000",
+   "radius_km": "170.00",
+   "density_gcm3": "n/a"
+  },
+  {
+   "planet": "Neptune",
+   "name": "Naiad",
+   "code": "803",
+   "gm_km3s2": "0.00853",
+   "radius_km": "29.00",
+   "density_gcm3": "1.2511"
+  },
+  {
+   "planet": "Neptune",
+   "name": "Thalassa",
+   "code": "804",
+   "gm_km3s2": "0.02359",
+   "radius_km": "40.00",
+   "density_gcm3": "1.3184"
+  },
+  {
+   "planet": "Neptune",
+   "name": "Despina",
+   "code": "805",
+   "gm_km3s2": "0.11673",
+   "radius_km": "74.00",
+   "density_gcm3": "1.0304"
+  },
+  {
+   "planet": "Neptune",
+   "name": "Galatea",
+   "code": "806",
+   "gm_km3s2": "0.18990",
+   "radius_km": "79.00",
+   "density_gcm3": "1.3777"
+  },
+  {
+   "planet": "Neptune",
+   "name": "Larissa",
+   "code": "807",
+   "gm_km3s2": "0.25484",
+   "radius_km": "96.00",
+   "density_gcm3": "1.0303"
+  },
+  {
+   "planet": "Neptune",
+   "name": "Proteus",
+   "code": "808",
+   "gm_km3s2": "2.58342",
+   "radius_km": "208.00",
+   "density_gcm3": "1.0269"
+  },
+  {
+   "planet": "Pluto",
+   "name": "Charon",
+   "code": "901",
+   "gm_km3s2": "106.1",
+   "radius_km": "606.0",
+   "density_gcm3": "1.853"
+  },
+  {
+   "planet": "Pluto",
+   "name": "Nix",
+   "code": "902",
+   "gm_km3s2": "0.0015",
+   "radius_km": "18.0",
+   "density_gcm3": "0.88"
+  },
+  {
+   "planet": "Pluto",
+   "name": "Hydra",
+   "code": "903",
+   "gm_km3s2": "0.0020",
+   "radius_km": "18.5",
+   "density_gcm3": "1.21"
+  },
+  {
+   "planet": "Pluto",
+   "name": "Kerberos",
+   "code": "904",
+   "gm_km3s2": "n/a",
+   "radius_km": "6.0",
+   "density_gcm3": "n/a"
+  },
+  {
+   "planet": "Pluto",
+   "name": "Styx",
+   "code": "905",
+   "gm_km3s2": "n/a",
+   "radius_km": "5.2",
+   "density_gcm3": "n/a"
+  }
+ ]
+}

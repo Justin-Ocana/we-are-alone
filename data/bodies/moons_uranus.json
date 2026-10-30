@@ -1,0 +1,1835 @@
+{
+ "schema_version": 1,
+ "collection": "moons_uranus",
+ "source": "JPL SSD Planetary Satellite Mean Elements / Physical Parameters (data/sources)",
+ "bodies": [
+  {
+   "id": "uranus_puck",
+   "name": "Puck",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "715",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 65822.3712,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "equatorial",
+    "epoch_jd": 2451545.0,
+    "a_m": 86004000.0,
+    "e": 0.0,
+    "w_deg": 0.0,
+    "M_deg": 50.1,
+    "i_deg": 0.3,
+    "node_deg": 216.1,
+    "period_s": 65822.3712,
+    "apsis_period_s": 70247217.60000001,
+    "node_period_s": 140557550.4,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA182, ref. 45)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 792,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_cordelia",
+   "name": "Cordelia",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "706",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 28918.079999999998,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2460676.5,
+    "a_m": 49755000.0,
+    "e": 0.0,
+    "w_deg": 0.0,
+    "M_deg": 287.4,
+    "i_deg": 0.2,
+    "node_deg": 1.1,
+    "period_s": 28918.079999999998,
+    "apsis_period_s": 0.0,
+    "node_period_s": 18934560.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA184, ref. 10)",
+    "laplace_pole_ra": 77.3,
+    "laplace_pole_dec": 15.2
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 783,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_ophelia",
+   "name": "Ophelia",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "707",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 32520.960000000003,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2460676.5,
+    "a_m": 53765000.0,
+    "e": 0.011,
+    "w_deg": 19.3,
+    "M_deg": 213.4,
+    "i_deg": 0.2,
+    "node_deg": 151.6,
+    "period_s": 32520.960000000003,
+    "apsis_period_s": 12623040.0,
+    "node_period_s": 25246080.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA184, ref. 10)",
+    "laplace_pole_ra": 77.3,
+    "laplace_pole_dec": 15.2
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 784,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_bianca",
+   "name": "Bianca",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "708",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 37558.079999999994,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2460676.5,
+    "a_m": 59170000.0,
+    "e": 0.006,
+    "w_deg": 328.0,
+    "M_deg": 109.1,
+    "i_deg": 2.3,
+    "node_deg": 272.5,
+    "period_s": 37558.079999999994,
+    "apsis_period_s": 15778800.0,
+    "node_period_s": 34713360.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA184, ref. 10)",
+    "laplace_pole_ra": 77.3,
+    "laplace_pole_dec": 15.2
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 785,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_cressida",
+   "name": "Cressida",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "709",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 40080.96,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2460676.5,
+    "a_m": 61770000.0,
+    "e": 0.004,
+    "w_deg": 87.9,
+    "M_deg": 0.5,
+    "i_deg": 1.8,
+    "node_deg": 308.2,
+    "period_s": 40080.96,
+    "apsis_period_s": 18934560.0,
+    "node_period_s": 37869120.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA184, ref. 10)",
+    "laplace_pole_ra": 77.3,
+    "laplace_pole_dec": 15.2
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 786,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_desdemona",
+   "name": "Desdemona",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "710",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 40919.04,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2460676.5,
+    "a_m": 62663000.0,
+    "e": 0.007,
+    "w_deg": 137.0,
+    "M_deg": 230.0,
+    "i_deg": 3.1,
+    "node_deg": 283.9,
+    "period_s": 40919.04,
+    "apsis_period_s": 18934560.0,
+    "node_period_s": 41024880.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA184, ref. 10)",
+    "laplace_pole_ra": 77.3,
+    "laplace_pole_dec": 15.2
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 787,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_juliet",
+   "name": "Juliet",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "711",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 42603.84,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2460676.5,
+    "a_m": 64362000.0,
+    "e": 0.006,
+    "w_deg": 274.9,
+    "M_deg": 319.8,
+    "i_deg": 3.0,
+    "node_deg": 141.0,
+    "period_s": 42603.84,
+    "apsis_period_s": 22090320.0,
+    "node_period_s": 44180640.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA184, ref. 10)",
+    "laplace_pole_ra": 77.3,
+    "laplace_pole_dec": 15.2
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 788,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_portia",
+   "name": "Portia",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "712",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 44340.479999999996,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2460676.5,
+    "a_m": 66101000.0,
+    "e": 0.004,
+    "w_deg": 31.6,
+    "M_deg": 310.1,
+    "i_deg": 2.7,
+    "node_deg": 146.7,
+    "period_s": 44340.479999999996,
+    "apsis_period_s": 25246080.0,
+    "node_period_s": 50492160.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA184, ref. 10)",
+    "laplace_pole_ra": 77.3,
+    "laplace_pole_dec": 15.2
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 789,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_rosalind",
+   "name": "Rosalind",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "713",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 48237.12,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2460676.5,
+    "a_m": 69930000.0,
+    "e": 0.003,
+    "w_deg": 231.8,
+    "M_deg": 287.7,
+    "i_deg": 1.7,
+    "node_deg": 330.0,
+    "period_s": 48237.12,
+    "apsis_period_s": 28401840.000000004,
+    "node_period_s": 59959440.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA184, ref. 10)",
+    "laplace_pole_ra": 77.3,
+    "laplace_pole_dec": 15.2
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 790,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_belinda",
+   "name": "Belinda",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "714",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 53879.04,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2460676.5,
+    "a_m": 75258000.0,
+    "e": 0.002,
+    "w_deg": 58.6,
+    "M_deg": 226.4,
+    "i_deg": 1.4,
+    "node_deg": 96.2,
+    "period_s": 53879.04,
+    "apsis_period_s": 37869120.0,
+    "node_period_s": 75738240.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA184, ref. 10)",
+    "laplace_pole_ra": 77.3,
+    "laplace_pole_dec": 15.2
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 791,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_puck",
+   "name": "Puck",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "715",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 65819.52,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2460676.5,
+    "a_m": 86007000.0,
+    "e": 0.009,
+    "w_deg": 337.0,
+    "M_deg": 264.1,
+    "i_deg": 1.1,
+    "node_deg": 111.2,
+    "period_s": 65819.52,
+    "apsis_period_s": 59959440.0,
+    "node_period_s": 123074639.99999999,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA184, ref. 10)",
+    "laplace_pole_ra": 77.3,
+    "laplace_pole_dec": 15.2
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 792,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_perdita",
+   "name": "Perdita",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "725",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 55140.479999999996,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2460676.5,
+    "a_m": 76418000.0,
+    "e": 0.005,
+    "w_deg": 296.9,
+    "M_deg": 168.0,
+    "i_deg": 1.6,
+    "node_deg": 270.4,
+    "period_s": 55140.479999999996,
+    "apsis_period_s": 41024880.0,
+    "node_period_s": 82049760.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA184, ref. 10)",
+    "laplace_pole_ra": 77.3,
+    "laplace_pole_dec": 15.2
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 802,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_mab",
+   "name": "Mab",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "726",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 79738.56,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2460676.5,
+    "a_m": 97737000.0,
+    "e": 0.006,
+    "w_deg": 318.6,
+    "M_deg": 250.8,
+    "i_deg": 1.8,
+    "node_deg": 307.8,
+    "period_s": 79738.56,
+    "apsis_period_s": 97828560.00000001,
+    "node_period_s": 192501360.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA184, ref. 10)",
+    "laplace_pole_ra": 77.3,
+    "laplace_pole_dec": 15.2
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 803,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_cupid",
+   "name": "Cupid",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "727",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 52920.00000000001,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2460676.5,
+    "a_m": 74396000.0,
+    "e": 0.007,
+    "w_deg": 168.0,
+    "M_deg": 3.3,
+    "i_deg": 2.0,
+    "node_deg": 31.1,
+    "period_s": 52920.00000000001,
+    "apsis_period_s": 37869120.0,
+    "node_period_s": 72582480.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA184, ref. 10)",
+    "laplace_pole_ra": 77.3,
+    "laplace_pole_dec": 15.2
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 804,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_s2025_u_1",
+   "name": "S2025_U_1",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "75052",
+   "physical": {
+    "mean_radius": {
+     "value": 12000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1.0857344210806324e+16,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 36296.64,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "laplace",
+    "epoch_jd": 2460676.5,
+    "a_m": 57844000.0,
+    "e": 0.039,
+    "w_deg": 313.9,
+    "M_deg": 275.6,
+    "i_deg": 4.0,
+    "node_deg": 70.8,
+    "period_s": 36296.64,
+    "apsis_period_s": 15778800.0,
+    "node_period_s": 31557600.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA184, ref. 10)",
+    "laplace_pole_ra": 77.3,
+    "laplace_pole_dec": 15.2
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 75129,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_caliban",
+   "name": "Caliban",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "716",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 50112000.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 7167000000.0,
+    "e": 0.2,
+    "w_deg": 349.7,
+    "M_deg": 241.2,
+    "i_deg": 141.4,
+    "node_deg": 174.9,
+    "period_s": 50112000.0,
+    "apsis_period_s": 277549092000.0,
+    "node_period_s": 204587920800.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA117, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 793,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_sycorax",
+   "name": "Sycorax",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "717",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 111110400.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 12193200000.0,
+    "e": 0.52,
+    "w_deg": 25.4,
+    "M_deg": 332.1,
+    "i_deg": 157.0,
+    "node_deg": 267.1,
+    "period_s": 111110400.0,
+    "apsis_period_s": 43991294400.0,
+    "node_period_s": 58791808800.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA117, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 794,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_prospero",
+   "name": "Prospero",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "718",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 170553600.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 16221000000.0,
+    "e": 0.441,
+    "w_deg": 180.4,
+    "M_deg": 197.6,
+    "i_deg": 149.4,
+    "node_deg": 324.5,
+    "period_s": 170553600.0,
+    "apsis_period_s": 36417470400.0,
+    "node_period_s": 43202354400.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA117, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 795,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_setebos",
+   "name": "Setebos",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "719",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 191376000.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 17519800000.0,
+    "e": 0.579,
+    "w_deg": 356.1,
+    "M_deg": 148.0,
+    "i_deg": 153.9,
+    "node_deg": 244.7,
+    "period_s": 191376000.0,
+    "apsis_period_s": 1514764800.0,
+    "node_period_s": 1514764800.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA117, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 796,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_stephano",
+   "name": "Stephano",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "720",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 58492800.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 7951400000.0,
+    "e": 0.235,
+    "w_deg": 17.1,
+    "M_deg": 164.4,
+    "i_deg": 143.6,
+    "node_deg": 193.3,
+    "period_s": 58492800.0,
+    "apsis_period_s": 172588514400.0,
+    "node_period_s": 163783944000.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA117, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 797,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_trinculo",
+   "name": "Trinculo",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "721",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 64713600.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 8502600000.0,
+    "e": 0.22,
+    "w_deg": 162.2,
+    "M_deg": 55.6,
+    "i_deg": 167.1,
+    "node_deg": 196.5,
+    "period_s": 64713600.0,
+    "apsis_period_s": 81702626400.0,
+    "node_period_s": 134593164000.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA117, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 798,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_francisco",
+   "name": "Francisco",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "722",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 23068800.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 4275700000.0,
+    "e": 0.144,
+    "w_deg": 137.6,
+    "M_deg": 288.4,
+    "i_deg": 146.8,
+    "node_deg": 101.9,
+    "period_s": 23068800.0,
+    "apsis_period_s": 393617944800.0,
+    "node_period_s": 455029034400.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA117, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 799,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_margaret",
+   "name": "Margaret",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "723",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 142992000.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 14425000000.0,
+    "e": 0.642,
+    "w_deg": 90.7,
+    "M_deg": 115.9,
+    "i_deg": 60.5,
+    "node_deg": 0.9,
+    "period_s": 142992000.0,
+    "apsis_period_s": 0.0,
+    "node_period_s": 31620715200.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA117, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 800,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_ferdinand",
+   "name": "Ferdinand",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "724",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 240883200.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 20421400000.0,
+    "e": 0.395,
+    "w_deg": 166.9,
+    "M_deg": 172.3,
+    "i_deg": 169.2,
+    "node_deg": 223.9,
+    "period_s": 240883200.0,
+    "apsis_period_s": 23573527200.0,
+    "node_period_s": 31589157600.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA117, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 801,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  },
+  {
+   "id": "uranus_s2023_u1",
+   "name": "S2023_U1",
+   "kind": "moon_minor",
+   "parent": "uranus",
+   "description": "Satélite de Uranus (elementos medios JPL).",
+   "jpl_code": "75051",
+   "physical": {
+    "mean_radius": {
+     "value": 6000.0,
+     "unit": "m",
+     "quality": "estimated",
+     "source": "Radio no publicado por el JPL: valor típico de satélites irregulares débiles de Uranus"
+    },
+    "mass": {
+     "value": 1357168026350790.5,
+     "unit": "kg",
+     "quality": "estimated",
+     "source": "Masa estimada con densidad típica de 1500 kg/m3"
+    },
+    "sidereal_rotation_period": {
+     "value": 58838400.0,
+     "unit": "s",
+     "quality": "approximate",
+     "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+    }
+   },
+   "rotation": {
+    "model": "synchronous",
+    "quality": "approximate",
+    "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+   },
+   "orbit": {
+    "model": "satellite",
+    "frame": "ecliptic",
+    "epoch_jd": 2458849.5,
+    "a_m": 7976600000.0,
+    "e": 0.25,
+    "w_deg": 158.7,
+    "M_deg": 101.8,
+    "i_deg": 143.9,
+    "node_deg": 260.2,
+    "period_s": 58838400.0,
+    "apsis_period_s": 160249492800.0,
+    "node_period_s": 158482267200.0,
+    "quality": "measured",
+    "source": "JPL SSD Planetary Satellite Mean Elements (URA117, ref. 43)"
+   },
+   "surface": {
+    "type": "solid",
+    "terrain_profile": "small_irregular",
+    "seed": 75128,
+    "terrain_note": "Satélite pequeño: forma y superficie PROCEDURALES (esfera craterizada)."
+   },
+   "atmosphere": {
+    "present": false
+   },
+   "render": {
+    "kind": "rocky",
+    "color": [
+     0.45,
+     0.43,
+     0.41
+    ],
+    "color2": [
+     0.32,
+     0.31,
+     0.3
+    ]
+   },
+   "schema_version": 1
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "id": "moon",
+ "name": "Luna",
+ "kind": "moon",
+ "parent": "earth",
+ "description": "Satélite de la Tierra y punto de partida. Superficie de regolito, mares de basalto y cráteres.",
+ "jpl_code": "301",
+ "physical": {
+  "mean_radius": {
+   "value": 1737400.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters"
+  },
+  "mass": {
+   "value": 7.3457890715131185e+22,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+  },
+  "sidereal_rotation_period": {
+   "value": 2360592.0,
+   "unit": "s",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Moon: 655.720 h)"
+  },
+  "solar_day": {
+   "value": 2551443.0,
+   "unit": "s",
+   "quality": "measured",
+   "source": "Mes sinódico medio 29,53059 d (NSSDC)"
+  },
+  "axial_tilt": {
+   "value": 1.54,
+   "unit": "deg",
+   "quality": "measured",
+   "source": "Ecuador lunar respecto a la eclíptica (IAU)"
+  }
+ },
+ "rotation": {
+  "model": "synchronous",
+  "quality": "approximate",
+  "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+ },
+ "orbit": {
+  "model": "satellite",
+  "frame": "ecliptic",
+  "epoch_jd": 2451545.0,
+  "a_m": 384400000.0,
+  "e": 0.0554,
+  "w_deg": 318.15,
+  "M_deg": 135.27,
+  "i_deg": 5.16,
+  "node_deg": 125.08,
+  "period_s": 2360620.8,
+  "apsis_period_s": 189250927.20000002,
+  "node_period_s": 586971360.0,
+  "quality": "measured",
+  "source": "JPL SSD Planetary Satellite Mean Elements (DE405/LE405, ref. n/a)"
+ },
+ "surface": {
+  "type": "solid",
+  "terrain_profile": "cratered_airless",
+  "seed": 1737400,
+  "terrain_note": "Topografía PROCEDURAL inspirada en terreno lunar. No representa los datos reales LOLA/LRO.",
+  "colors_override": {
+   "base": [
+    0.55,
+    0.55,
+    0.55
+   ],
+   "alt": [
+    0.32,
+    0.32,
+    0.33
+   ]
+  }
+ },
+ "render": {
+  "kind": "rocky",
+  "color": [
+   0.55,
+   0.55,
+   0.55
+  ],
+  "color2": [
+   0.32,
+   0.32,
+   0.33
+  ]
+ },
+ "atmosphere": {
+  "present": false
+ },
+ "schema_version": 1
+}

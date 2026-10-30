@@ -1,0 +1,84 @@
+{
+ "id": "oberon",
+ "name": "Oberón",
+ "kind": "moon",
+ "parent": "uranus",
+ "description": "Luna exterior de Urano, antigua y craterizada.",
+ "jpl_code": "704",
+ "physical": {
+  "mean_radius": {
+   "value": 761400.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters"
+  },
+  "mass": {
+   "value": 3.075978005184065e+21,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "JPL SSD Planetary Satellite Physical Parameters (GM/G)"
+  },
+  "sidereal_rotation_period": {
+   "value": 1163223.6768,
+   "unit": "s",
+   "quality": "approximate",
+   "source": "Rotación síncrona supuesta (igual al periodo orbital)"
+  }
+ },
+ "rotation": {
+  "model": "synchronous",
+  "quality": "approximate",
+  "source": "Rotación síncrona (cara fija hacia el planeta); válido para las lunas regulares"
+ },
+ "orbit": {
+  "model": "satellite",
+  "frame": "equatorial",
+  "epoch_jd": 2451545.0,
+  "a_m": 583511000.0,
+  "e": 0.002,
+  "w_deg": 132.2,
+  "M_deg": 143.6,
+  "i_deg": 0.1,
+  "node_deg": 76.8,
+  "period_s": 1163223.6768,
+  "apsis_period_s": 5005161590.400001,
+  "node_period_s": 6084242164.8,
+  "quality": "measured",
+  "source": "JPL SSD Planetary Satellite Mean Elements (URA182, ref. 45)"
+ },
+ "surface": {
+  "type": "solid",
+  "terrain_profile": "icy_cratered",
+  "seed": 7395937,
+  "terrain_note": "Topografía PROCEDURAL inspirada en Oberón; no son datos reales.",
+  "colors_override": {
+   "base": [
+    0.55,
+    0.52,
+    0.5
+   ],
+   "alt": [
+    0.4,
+    0.38,
+    0.37
+   ]
+  }
+ },
+ "render": {
+  "kind": "rocky",
+  "color": [
+   0.55,
+   0.52,
+   0.5
+  ],
+  "color2": [
+   0.4,
+   0.38,
+   0.37
+  ]
+ },
+ "atmosphere": {
+  "present": false
+ },
+ "schema_version": 1
+}

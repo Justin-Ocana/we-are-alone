@@ -1,0 +1,286 @@
+{
+ "id": "jupiter",
+ "name": "Júpiter",
+ "kind": "planet",
+ "parent": "sun",
+ "description": "Gigante de H2/He sin superficie. Bandas de nubes de amoníaco, la Gran Mancha Roja (anticiclón de ~12 400-14 900 km, vientos de ~430 km/h) y chorros de hasta 150 m/s. La sonda Galileo (1995) dejó de transmitir a ~23 bar y ~425 K.",
+ "physical": {
+  "mean_radius": {
+   "value": 69911000.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (jupiter: volumetric mean radius)"
+  },
+  "mass": {
+   "value": 1.8981316392730327e+27,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (jupiter: GM/G)"
+  },
+  "gm": {
+   "value": 1.26687e+17,
+   "unit": "m3/s2",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (jupiter)"
+  },
+  "sidereal_rotation_period": {
+   "value": 35730.0,
+   "unit": "s",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (negativo = retrógrado)"
+  },
+  "solar_day": {
+   "value": 35730.0,
+   "unit": "s",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (length of day)"
+  },
+  "axial_tilt": {
+   "value": 3.13,
+   "unit": "deg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (obliquity to orbit)"
+  },
+  "geometric_albedo": {
+   "value": 0.538,
+   "unit": "",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  },
+  "equatorial_radius": {
+   "value": 71492000.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (1 bar)"
+  },
+  "polar_radius": {
+   "value": 66854000.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  }
+ },
+ "rotation": {
+  "model": "iau",
+  "pole_ra": 268.057,
+  "pole_dec": 64.495,
+  "pole_ra_rate": -0.006,
+  "pole_dec_rate": 0.002,
+  "w0": 284.95,
+  "wdot": 870.536,
+  "quality": "approximate",
+  "source": "IAU WGCCRE 2015 (Archinal et al. 2018); polo contrastado con NASA NSSDCA Planetary Fact Sheet"
+ },
+ "orbit": {
+  "model": "planet",
+  "frame": "ecliptic_j2000",
+  "elements": [
+   5.202887,
+   0.04838624,
+   1.30439695,
+   34.39644051,
+   14.72847983,
+   100.47390909
+  ],
+  "rates_per_century": [
+   -0.00011607,
+   -0.00013253,
+   -0.00183714,
+   3034.74612775,
+   0.21252668,
+   0.20469106
+  ],
+  "element_order": [
+   "a_au",
+   "e",
+   "i_deg",
+   "L_deg",
+   "varpi_deg",
+   "node_deg"
+  ],
+  "quality": "measured",
+  "source": "JPL SSD Approximate Positions of the Planets, Tabla 1 (Standish & Williams 1992)",
+  "valid": "1800-2050"
+ },
+ "atmosphere": {
+  "present": true,
+  "kind": "gas_giant",
+  "reference_level": "1 bar",
+  "pressure_1bar": {
+   "value": 100000.0,
+   "unit": "Pa",
+   "quality": "measured",
+   "source": "Definición del nivel de referencia (1 bar)"
+  },
+  "temperature_1bar": {
+   "value": 165.0,
+   "unit": "K",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Jupiter: temperatura a 1 bar)"
+  },
+  "temperature_0p1bar": {
+   "value": 112.0,
+   "unit": "K",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Jupiter: temperatura a 0,1 bar)"
+  },
+  "density_1bar": {
+   "value": 0.16,
+   "unit": "kg/m3",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Jupiter: densidad a 1 bar)"
+  },
+  "scale_height": {
+   "value": 27000.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (Jupiter: altura de escala)"
+  },
+  "mean_molecular_weight": {
+   "value": 2.22,
+   "unit": "g/mol",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  },
+  "specific_heat_cp": {
+   "value": 12350.0,
+   "unit": "J/(kg K)",
+   "quality": "approximate",
+   "source": "Mezcla H2/He ideal (cp ≈ 3,5 R/μ)"
+  },
+  "composition": "H2 89,8 %, He 10,2 %; CH4 3000 ppm, NH3 260 ppm, HD 28 ppm, C2H6 5,8 ppm, H2O ~4 ppm (NSSDC)",
+  "clouds": [
+   {
+    "name": "Nubes de amoníaco (NH3)",
+    "p_top_bar": 0.5,
+    "p_base_bar": 0.9,
+    "color": [
+     0.95,
+     0.92,
+     0.85
+    ],
+    "opacity": 0.85,
+    "quality": "approximate",
+    "note": "Zonas blancas; modelo de condensación"
+   },
+   {
+    "name": "Hidrosulfuro de amonio (NH4SH)",
+    "p_top_bar": 1.5,
+    "p_base_bar": 3.0,
+    "color": [
+     0.72,
+     0.48,
+     0.3
+    ],
+    "opacity": 0.9,
+    "quality": "approximate",
+    "note": "Cinturones pardos/anaranjados"
+   },
+   {
+    "name": "Nubes de agua (H2O)",
+    "p_top_bar": 5.0,
+    "p_base_bar": 7.0,
+    "color": [
+     0.55,
+     0.6,
+     0.68
+    ],
+    "opacity": 0.95,
+    "quality": "approximate",
+    "note": "Origen de los rayos (Galileo, Juno)"
+   }
+  ],
+  "winds": {
+   "max_mps": 150.0,
+   "high_lat_mps": 40.0,
+   "note": "Hasta 150 m/s (<30°), 40 m/s (>30°) (NSSDC)"
+  },
+  "wind_model": {
+   "type": "jets",
+   "jets": 12,
+   "max_mps": 150.0,
+   "equator_mps": 100.0
+  },
+  "lightning": true,
+  "sky_above_clouds": [
+   0.32,
+   0.45,
+   0.72
+  ],
+  "deep_color": [
+   0.35,
+   0.18,
+   0.1
+  ],
+  "note": "Sin superficie sólida: la presión y la temperatura crecen sin límite al descender. Hidrógeno metálico a partir de ~0,8-0,9 radios (modelos con Juno, incierto)."
+ },
+ "surface": {
+  "type": "none",
+  "terrain_note": "Gigante gaseoso: no hay suelo."
+ },
+ "render": {
+  "kind": "gas",
+  "color": [
+   0.9,
+   0.84,
+   0.72
+  ],
+  "color2": [
+   0.66,
+   0.47,
+   0.32
+  ],
+  "band_count": 18,
+  "band_contrast": 0.9,
+  "flattening": 0.06487,
+  "turbulence": 0.6,
+  "storms": [
+   {
+    "name": "Gran Mancha Roja",
+    "lat": -22.4,
+    "lon": 50.0,
+    "width_km": 13500.0,
+    "height_km": 10500.0,
+    "color": [
+     0.78,
+     0.36,
+     0.22
+    ],
+    "wind_mps": 120.0,
+    "quality": "measured",
+    "source": "Hubble OPAL: 15 590 km (2009) → 12 410 km (2020), 14 893 km (2021); vientos ~370-435 km/h"
+   },
+   {
+    "name": "Óvalo BA (Mancha Roja Junior)",
+    "lat": -33.5,
+    "lon": 160.0,
+    "width_km": 7000.0,
+    "height_km": 5500.0,
+    "color": [
+     0.88,
+     0.62,
+     0.55
+    ],
+    "wind_mps": 100.0,
+    "quality": "approximate",
+    "source": "Hubble (2006)"
+   }
+  ],
+  "rings": [
+   {
+    "name": "Anillo principal",
+    "inner_m": 122500000.0,
+    "outer_m": 129000000.0,
+    "opacity": 0.03,
+    "color": [
+     0.55,
+     0.45,
+     0.38
+    ],
+    "quality": "approximate",
+    "source": "Voyager/Galileo"
+   }
+  ]
+ },
+ "schema_version": 1
+}

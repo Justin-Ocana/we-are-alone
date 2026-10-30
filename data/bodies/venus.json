@@ -1,0 +1,232 @@
+{
+ "id": "venus",
+ "name": "Venus",
+ "kind": "planet",
+ "parent": "sun",
+ "description": "Infierno de CO2: 92 bar y 737 K en superficie, nubes de ácido sulfúrico entre 48 y 70 km y vientos de ~100 m/s en la cima de las nubes (superrotación); en el suelo apenas 0,3-1 m/s. Rotación retrógrada de 243 días.",
+ "physical": {
+  "mean_radius": {
+   "value": 6051800.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (venus: volumetric mean radius)"
+  },
+  "mass": {
+   "value": 4.867326910687264e+24,
+   "unit": "kg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (venus: GM/G)"
+  },
+  "gm": {
+   "value": 324860000000000.0,
+   "unit": "m3/s2",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (venus)"
+  },
+  "sidereal_rotation_period": {
+   "value": -20997360.0,
+   "unit": "s",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (negativo = retrógrado)"
+  },
+  "solar_day": {
+   "value": 10087200.0,
+   "unit": "s",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (length of day)"
+  },
+  "axial_tilt": {
+   "value": 177.36,
+   "unit": "deg",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet (obliquity to orbit)"
+  },
+  "geometric_albedo": {
+   "value": 0.689,
+   "unit": "",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  }
+ },
+ "rotation": {
+  "model": "iau",
+  "pole_ra": 272.76,
+  "pole_dec": 67.16,
+  "pole_ra_rate": 0.0,
+  "pole_dec_rate": 0.0,
+  "w0": 160.2,
+  "wdot": -1.4813688,
+  "quality": "approximate",
+  "source": "IAU WGCCRE 2015 (Archinal et al. 2018); polo contrastado con NASA NSSDCA Planetary Fact Sheet"
+ },
+ "orbit": {
+  "model": "planet",
+  "frame": "ecliptic_j2000",
+  "elements": [
+   0.72333566,
+   0.00677672,
+   3.39467605,
+   181.9790995,
+   131.60246718,
+   76.67984255
+  ],
+  "rates_per_century": [
+   3.9e-06,
+   -4.107e-05,
+   -0.0007889,
+   58517.81538729,
+   0.00268329,
+   -0.27769418
+  ],
+  "element_order": [
+   "a_au",
+   "e",
+   "i_deg",
+   "L_deg",
+   "varpi_deg",
+   "node_deg"
+  ],
+  "quality": "measured",
+  "source": "JPL SSD Approximate Positions of the Planets, Tabla 1 (Standish & Williams 1992)",
+  "valid": "1800-2050"
+ },
+ "atmosphere": {
+  "present": true,
+  "kind": "rocky",
+  "reference_level": "surface",
+  "surface_pressure": {
+   "value": 9200000.0,
+   "unit": "Pa",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  },
+  "surface_temperature": {
+   "value": 737.0,
+   "unit": "K",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  },
+  "scale_height": {
+   "value": 15900.0,
+   "unit": "m",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  },
+  "mean_molecular_weight": {
+   "value": 43.45,
+   "unit": "g/mol",
+   "quality": "measured",
+   "source": "NASA NSSDCA Planetary Fact Sheet"
+  },
+  "lapse_rate": {
+   "value": 0.0078,
+   "unit": "K/m",
+   "quality": "approximate",
+   "source": "Gradiente térmico típico de la troposfera"
+  },
+  "min_temperature": {
+   "value": 230.0,
+   "unit": "K",
+   "quality": "approximate",
+   "source": "Temperatura mínima de la troposfera (tropopausa)"
+  },
+  "composition": "CO2 96,5 %, N2 3,5 %; SO2 150 ppm, Ar 70 ppm, H2O 20 ppm (NSSDC)",
+  "sky": {
+   "zenith": [
+    0.55,
+    0.42,
+    0.22
+   ],
+   "horizon": [
+    0.8,
+    0.6,
+    0.32
+   ],
+   "sunset": [
+    0.7,
+    0.4,
+    0.15
+   ],
+   "space_limb": [
+    0.95,
+    0.9,
+    0.75
+   ]
+  },
+  "visual_density": 1.0,
+  "surface_light": {
+   "value": 0.04,
+   "unit": "fracción",
+   "quality": "approximate",
+   "source": "Fracción de la luz solar que llega al suelo"
+  },
+  "visibility": {
+   "value": 9000.0,
+   "unit": "m",
+   "quality": "approximate",
+   "source": "Visibilidad horizontal típica en superficie"
+  },
+  "clouds": [
+   {
+    "name": "Capa inferior (H2SO4)",
+    "bottom_m": 47500,
+    "top_m": 50500,
+    "color": [
+     0.85,
+     0.78,
+     0.55
+    ],
+    "opacity": 0.9
+   },
+   {
+    "name": "Capa media (H2SO4)",
+    "bottom_m": 50500,
+    "top_m": 56500,
+    "color": [
+     0.92,
+     0.85,
+     0.62
+    ],
+    "opacity": 0.95
+   },
+   {
+    "name": "Capa superior (H2SO4)",
+    "bottom_m": 56500,
+    "top_m": 70000,
+    "color": [
+     0.96,
+     0.92,
+     0.75
+    ],
+    "opacity": 0.8
+   }
+  ],
+  "winds": {
+   "surface_mps": 1.0,
+   "cloud_top_mps": 100.0,
+   "note": "Superrotación retrógrada (~4 días en la cima de las nubes)"
+  },
+  "note": "Capas de nubes según Pioneer Venus/Venus Express (≈47,5-70 km); la luz en el suelo (≈2-10 %) es incierta: se usa 4 %."
+ },
+ "surface": {
+  "type": "solid",
+  "terrain_profile": "venus",
+  "seed": 6051800,
+  "terrain_note": "Topografía PROCEDURAL inspirada en Venus (Magellan); no son datos reales.",
+  "temperature_k": 737
+ },
+ "render": {
+  "kind": "clouded",
+  "color": [
+   0.93,
+   0.86,
+   0.7
+  ],
+  "color2": [
+   0.85,
+   0.75,
+   0.55
+  ]
+ },
+ "schema_version": 1
+}
